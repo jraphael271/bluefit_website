@@ -10,15 +10,15 @@ const cormorant = Cormorant_Garamond({
 });
 
 const rules = [
-  'Beweeg Elke Dag',
-  'Ken Je Levensdoel',
-  'Verminder Stress',
-  'Eet Met Bewustzijn',
-  'Plantaardig & Puur',
-  'Geniet Met Mate',
-  'Voel Je Verbonden',
-  'Familie op de Eerste Plaats',
-  'Kies Je Omgeving Bewust',
+  'Beweeg natuurlijk — dagelijks actief zonder te sporten',
+  'Doel hebben — weten waarom je \'s ochtends opstaat',
+  'Ontspanning — dagelijkse momenten van rust en stressverlaging',
+  '80%-regel — eten tot je voor 80% vol zit',
+  'Plantaardig eten — vooral plantaardige voeding, weinig vlees',
+  'Train in een persoonlijke en ongedwongen sfeer',
+  'Wijn bij het eten — met mate en in goed gezelschap',
+  'Geloof of zingeving — onderdeel zijn van een gemeenschap',
+  'Familie eerst — investeren in familiebanden',
 ];
 
 const Separator = () => (
@@ -36,7 +36,7 @@ export default function MarqueeTicker() {
   }, []);
 
   return (
-    <div className={`absolute bottom-0 left-0 right-0 z-30 overflow-hidden select-none transition-opacity duration-700 ${visible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+    <div className={`absolute bottom-0 left-0 right-0 z-30 overflow-hidden select-none transition-opacity duration-300 ${visible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
       {/* Fade edges */}
       <div className='absolute inset-y-0 left-0 w-24 z-10 bg-gradient-to-r from-black/40 to-transparent pointer-events-none' />
       <div className='absolute inset-y-0 right-0 w-24 z-10 bg-gradient-to-l from-black/40 to-transparent pointer-events-none' />
