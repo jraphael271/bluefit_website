@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bgGrad" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#3fa0dc"/>
+      <stop offset="45%" stop-color="#1f7bbf"/>
+      <stop offset="80%" stop-color="#1560a8"/>
+      <stop offset="100%" stop-color="#0c3870"/>
+    </radialGradient>
+    <radialGradient id="outerGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1a5898"/>
+      <stop offset="60%" stop-color="#0d3060"/>
+      <stop offset="100%" stop-color="#060f20"/>
+    </radialGradient>
+    <filter id="ringShad" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#061830" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Outer dark navy border -->
+  <circle cx="256" cy="256" r="256" fill="url(#outerGrad)"/>
+
+  <!-- Blue gradient background -->
+  <circle cx="256" cy="256" r="232" fill="url(#bgGrad)"/>
+
+  <!-- Ring 1 (outermost): gaps at 3 and 9 o'clock -->
+  <circle cx="256" cy="256" r="186"
+    fill="none" stroke="white" stroke-width="22" stroke-linecap="round"
+    stroke-dasharray="512.9 71.4 512.9 71.4"
+    stroke-dashoffset="548.6"
+    filter="url(#ringShad)"/>
+
+  <!-- Ring 2 (middle) -->
+  <circle cx="256" cy="256" r="146"
+    fill="none" stroke="white" stroke-width="22" stroke-linecap="round"
+    stroke-dasharray="402.7 56.0 402.7 56.0"
+    stroke-dashoffset="430.7"
+    filter="url(#ringShad)"/>
+
+  <!-- Ring 3 (inner) -->
+  <circle cx="256" cy="256" r="106"
+    fill="none" stroke="white" stroke-width="22" stroke-linecap="round"
+    stroke-dasharray="292.3 40.6 292.3 40.6"
+    stroke-dashoffset="312.6"
+    filter="url(#ringShad)"/>
+
+  <!-- Center white circle -->
+  <circle cx="256" cy="256" r="64" fill="white" filter="url(#ringShad)"/>
+</svg>
