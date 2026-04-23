@@ -6,6 +6,7 @@ import AanbodSection from '@/components/blocks/aanbod-section';
 import TarievenSection from '@/components/blocks/tarieven-section';
 import OverOnsSection from '@/components/blocks/over-ons-section';
 import ContactSection from '@/components/blocks/contact-section';
+import HeroCta from '@/components/blocks/hero-cta';
 
 export default function Home() {
   return (
@@ -25,6 +26,11 @@ export default function Home() {
       {/* Blue Zones Power 9 ticker — sits over the hero */}
       <div className='absolute inset-0 pointer-events-none' style={{ height: '100dvh' }}>
         <MarqueeTicker />
+      </div>
+
+      {/* Hero CTA — separate so pointer-events work on the button */}
+      <div className='absolute inset-0 z-40' style={{ height: '100dvh', pointerEvents: 'none' }}>
+        <HeroCta />
       </div>
 
       <AanbodSection />
