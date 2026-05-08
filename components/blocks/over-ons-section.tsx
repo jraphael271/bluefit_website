@@ -1,20 +1,23 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Activity, Leaf, Compass, Users } from 'lucide-react';
+import InstagramCarousel from './instagram-carousel';
+import GoogleReviewsCarousel from './google-reviews-carousel';
 
 const values = [
   {
     id: 'bewegen',
     icon: Activity,
     title: 'Bewegen',
-    body: 'Bij BlueFit geloven we dat beweging de basis is van een vitaal leven. Of het nu een intensieve workout is, een wandeling in de natuur of een speelse training met anderen — beweging geeft energie, zelfvertrouwen en balans. We stimuleren een actieve levensstijl op een manier die bij jou past: duurzaam en met plezier.',
+    body: 'Bij BlueFit geloven we dat beweging de basis is van een vitaal leven. Of het nu een intensieve workout is, een wandeling in de natuur of een speelse training met anderen beweging geeft energie, zelfvertrouwen en balans. We stimuleren een actieve levensstijl op een manier die bij jou past: duurzaam en met plezier.',
   },
   {
     id: 'voeding',
     icon: Leaf,
     title: 'Gezonde Voeding',
-    body: 'Gezonde voeding is brandstof voor lichaam en geest. We helpen je bewuste keuzes te maken die niet draaien om strikte regels, maar om balans en genot. Met kennis, inspiratie en praktische tips maken we gezond eten haalbaar en leuk — elke dag.',
+    body: 'Gezonde voeding is brandstof voor lichaam en geest. We helpen je bewuste keuzes te maken die niet draaien om strikte regels, maar om balans en genot. Met kennis, inspiratie en praktische tips maken we gezond eten haalbaar en leuk elke dag.',
   },
   {
     id: 'purpose',
@@ -48,50 +51,65 @@ export default function OverOnsSection() {
     <section id='over-ons' className='bg-[#F7F9FC] py-24 px-6 md:px-16'>
       <div className='max-w-7xl mx-auto'>
 
-        {/* Mission block */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mb-20'>
-          {/* Left — headings */}
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.65 }}
-          >
-            <p className='text-[#1f7bbf] text-xs font-semibold uppercase tracking-widest mb-4'>
-              Over Ons
-            </p>
-            <h2 className='text-[#0d1f3c] text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-6'>
-              Meer dan een gym.{' '}
-              <span className='text-[#1f7bbf]'>Jouw Blue Zone</span>{' '}
-              aan de Waal.
-            </h2>
+        {/* Mission block — heading full width, then photo + text side by side */}
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.65 }}
+          className='mb-12'
+        >
+          <p className='text-[#1f7bbf] text-xs font-semibold uppercase tracking-widest mb-4'>
+            Over Ons
+          </p>
+          <h2 className='text-[#0d1f3c] text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-6'>
+            Meer dan een gym.{' '}
+            <span className='text-[#1f7bbf]'>Jouw Blue Zone</span>{' '}
+            aan de Waal.
+          </h2>
+          <div className='inline-flex items-center gap-3 bg-white border border-[#0d1f3c]/8 rounded-full px-5 py-2.5 shadow-sm'>
+            <span className='w-2 h-2 rounded-full bg-[#1f7bbf] flex-shrink-0' />
+            <span className='text-[#0d1f3c]/60 text-sm font-medium'>Opgericht in Lent, 2025</span>
+          </div>
+        </motion.div>
 
-            {/* Founded badge */}
-            <div className='inline-flex items-center gap-3 bg-white border border-[#0d1f3c]/8 rounded-full px-5 py-2.5 shadow-sm mt-2'>
-              <span className='w-2 h-2 rounded-full bg-[#1f7bbf] flex-shrink-0' />
-              <span className='text-[#0d1f3c]/60 text-sm font-medium'>Opgericht in Lent, 2025</span>
-            </div>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20'>
+          {/* Team photo */}
+          <motion.div
+            initial={{ opacity: 0, x: -24 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className='relative h-[480px] rounded-2xl overflow-hidden shadow-lg'
+          >
+            <Image
+              src='/photos/team.jpeg'
+              alt='Het BlueFit team'
+              fill
+              className='object-cover' style={{ objectPosition: '50% 70%' }}
+              sizes='(max-width: 1024px) 100vw, 50vw'
+              priority
+            />
+            <div className='absolute inset-0 bg-gradient-to-t from-[#0d1f3c]/30 via-transparent to-transparent' />
           </motion.div>
 
-          {/* Right — mission text */}
+          {/* Mission text */}
           <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: 24 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.65, delay: 0.15 }}
+            transition={{ duration: 0.7, delay: 0.1 }}
             className='flex flex-col gap-5'
           >
             <p className='text-[#0d1f3c]/65 text-lg leading-relaxed'>
-              BlueFit is opgericht met één duidelijke missie: een sportschool creëren waar gezondheid verder gaat dan alleen trainen. Geïnspireerd door de principes van de Blue Zones — gebieden in de wereld waar mensen langer en gezonder leven — bouwen we een plek waar beweging, voeding, zingeving en verbinding samenkomen.
+              BlueFit is opgericht met één duidelijke missie: een sportschool creëren waar gezondheid verder gaat dan alleen trainen. Geïnspireerd door de principes van de Blue Zones gebieden in de wereld waar mensen langer en gezonder leven bouwen we een plek waar beweging, voeding, zingeving en verbinding samenkomen.
             </p>
             <p className='text-[#0d1f3c]/65 leading-relaxed'>
               We willen meer zijn dan een gym. BlueFit is een community waar mensen elkaar motiveren, inspireren en ondersteunen op weg naar een gezond, gelukkig en betekenisvol leven.
             </p>
-
-            {/* Mission pull quote */}
             <blockquote className='mt-2 pl-5 border-l-2 border-[#1f7bbf]'>
               <p className='text-[#0d1f3c] font-semibold leading-snug italic'>
-                "BlueFit wil de Blue Zone aan de Waal creëren — een plek waar mensen samen werken aan een duurzame levensstijl."
+                &ldquo;BlueFit wil de Blue Zone aan de Waal creëren een plek waar mensen samen werken aan een duurzame levensstijl.&rdquo;
               </p>
             </blockquote>
           </motion.div>
@@ -141,6 +159,16 @@ export default function OverOnsSection() {
               </motion.div>
             );
           })}
+        </div>
+
+        {/* Instagram carousel */}
+        <div className='mt-20 border-t border-[#0d1f3c]/8 pt-16'>
+          <InstagramCarousel />
+        </div>
+
+        {/* Google Reviews carousel */}
+        <div className='mt-16 border-t border-[#0d1f3c]/8 pt-16'>
+          <GoogleReviewsCarousel />
         </div>
 
       </div>

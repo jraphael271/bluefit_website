@@ -25,6 +25,7 @@ const mainPlans = [
       'Voedingsadvies',
     ],
     cta: 'Start jouw proefweek',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
   {
     id: 'blue-flex',
@@ -39,6 +40,7 @@ const mainPlans = [
       'Flexibel bevriezen',
     ],
     cta: 'Kies Blue Flex',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
   {
     id: 'light-blue',
@@ -55,6 +57,7 @@ const mainPlans = [
       'Cardio & smart apparatuur',
     ],
     cta: 'Kies Light Blue',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
   {
     id: 'light-blue-flex',
@@ -69,6 +72,7 @@ const mainPlans = [
       'Flexibel bevriezen',
     ],
     cta: 'Kies Light Blue Flex',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
 ];
 
@@ -76,6 +80,7 @@ const groupPlans = [
   {
     id: 'bootcamp',
     name: 'Bootcamp',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=62&outlet_id=137',
     price: '28',
     period: '4 weken',
     description: 'Buiten groepstraining met gebruik van trappen, bankjes, heuvels en meer. Eenvoudig te upgraden naar een fitnessabonnement.',
@@ -88,6 +93,7 @@ const groupPlans = [
   {
     id: 'blue-icons',
     name: 'Blue Icons',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=63&outlet_id=137',
     price: '29,50',
     period: '4 weken',
     description: 'Laagdrempelige seniorenfitness 1–2 keer per week, gericht op vitaliteit en balans.',
@@ -100,6 +106,7 @@ const groupPlans = [
   {
     id: 'blue-stars',
     name: 'Blue Stars',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=55&outlet_id=137',
     price: '30',
     period: '4 weken',
     note: '€15 voor leden',
@@ -113,6 +120,7 @@ const groupPlans = [
   {
     id: 'mama-flow',
     name: 'Mama Flow',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=66&outlet_id=137',
     price: '30',
     period: '4 weken',
     description: 'Veilig sporten tijdens of na de zwangerschap.',
@@ -128,12 +136,14 @@ const extraOptions = [
   {
     id: 'try',
     name: 'Proefweek',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=61&outlet_id=137',
     price: 'Gratis',
     description: 'Één week gratis kennismaken. Daarna €56/4 weken (Blue). Alleen tijdens begeleidingsuren.',
   },
   {
     id: 'dagpas',
     name: 'Dagpas',
+    href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=56&outlet_id=137',
     price: '€16,50',
     description: 'Eenmalige toegang tot alle faciliteiten. Kosten worden verrekend bij lidmaatschap. Ook toegang tot groepslessen.',
   },
@@ -399,10 +409,12 @@ export default function AbonnementenPage() {
                     ))}
                   </ul>
                   <Link
-                    href='#'
+                    href={plan.href}
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='w-full text-center py-2.5 rounded-xl text-sm font-bold bg-[#0d1f3c]/6 text-[#0d1f3c] hover:bg-[#0d1f3c]/12 border border-[#0d1f3c]/10 transition-all duration-200'
                   >
-                    Meer info
+                    Inschrijven
                   </Link>
                 </motion.div>
               ))}
@@ -445,7 +457,9 @@ export default function AbonnementenPage() {
                   <div className='flex-shrink-0 text-right md:text-left'>
                     <p className='text-[#1f7bbf] text-3xl font-black'>{opt.price}</p>
                     <Link
-                      href='#'
+                      href={opt.href}
+                      target='_blank'
+                      rel='noopener noreferrer'
                       className='mt-3 inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#1f7bbf] hover:bg-[#1560a8] text-white text-sm font-bold transition-colors duration-200'
                     >
                       {opt.id === 'try' ? 'Start gratis' : 'Koop dagpas'} <ArrowRight size={13} />
@@ -505,7 +519,9 @@ export default function AbonnementenPage() {
             </p>
             <div className='flex flex-wrap justify-center gap-3'>
               <Link
-                href='#'
+                href='https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=61&outlet_id=137'
+                target='_blank'
+                rel='noopener noreferrer'
                 className='inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#1f7bbf] hover:bg-[#1560a8] text-white font-semibold transition-colors duration-200'
               >
                 Start jouw proefweek <ArrowRight size={16} />

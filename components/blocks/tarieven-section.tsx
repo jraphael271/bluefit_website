@@ -20,7 +20,7 @@ const plans = [
       'Cardio & smart apparatuur',
     ],
     cta: 'Kies Light Blue',
-    ctaHref: '#',
+    ctaHref: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
   {
     id: 'blue',
@@ -38,7 +38,7 @@ const plans = [
       'Voedingsadvies',
     ],
     cta: 'Kies Blue',
-    ctaHref: '#',
+    ctaHref: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
   {
     id: 'blue-flex',
@@ -53,7 +53,7 @@ const plans = [
       'Flexibel bevriezen',
     ],
     cta: 'Kies Blue Flex',
-    ctaHref: '#',
+    ctaHref: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=53&outlet_id=137',
   },
   {
     id: 'try',
@@ -69,16 +69,16 @@ const plans = [
       'Tijdens begeleidingsuren',
     ],
     cta: 'Start gratis',
-    ctaHref: '#',
+    ctaHref: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=61&outlet_id=137',
   },
 ];
 
 const specials = [
-  { name: 'Bootcamp', price: '28', note: 'Buiten groepstraining' },
-  { name: 'Blue Icons', price: '29,50', note: '55+ seniorenfitness' },
-  { name: 'Blue Stars', price: '30', note: 'Kinderdansles (3–9 jr)' },
-  { name: 'Mama Flow', price: '30', note: 'Pre/postnatale fitness' },
-  { name: 'Dagpas', price: '16,50', note: 'Eenmalige toegang' },
+  { name: 'Bootcamp', price: '28', note: 'Buiten groepstraining', href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=62&outlet_id=137' },
+  { name: 'Blue Icons', price: '29,50', note: '55+ seniorenfitness', href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=63&outlet_id=137' },
+  { name: 'Blue Stars', price: '30', note: 'Kinderdansles (3–9 jr)', href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=55&outlet_id=137' },
+  { name: 'Mama Flow', price: '30', note: 'Pre/postnatale fitness', href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=66&outlet_id=137' },
+  { name: 'Dagpas', price: '16,50', note: 'Eenmalige toegang', href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=56&outlet_id=137' },
 ];
 
 const fadeUp = {
@@ -191,6 +191,8 @@ export default function TarievenSection() {
             {/* CTA */}
             <Link
               href={plan.ctaHref}
+              target='_blank'
+              rel='noopener noreferrer'
               className={`w-full text-center py-3 rounded-xl text-sm font-bold transition-all duration-200 ${
                 plan.popular
                   ? 'bg-white text-[#1f7bbf] hover:bg-white/90'
@@ -220,7 +222,9 @@ export default function TarievenSection() {
           {specials.map((s) => (
             <Link
               key={s.name}
-              href='#'
+              href={s.href}
+              target='_blank'
+              rel='noopener noreferrer'
               className='flex items-center gap-3 bg-white hover:bg-[#1f7bbf]/5 border border-[#0d1f3c]/8 hover:border-[#1f7bbf]/30 rounded-xl px-5 py-3 transition-all duration-200 group shadow-sm'
             >
               <div>

@@ -1,24 +1,17 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Cormorant_Garamond } from 'next/font/google';
-
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['300', '600'],
-  style: ['italic'],
-});
 
 const rules = [
-  'Beweeg natuurlijk — dagelijks actief zonder te sporten',
-  'Doel hebben — weten waarom je \'s ochtends opstaat',
-  'Ontspanning — dagelijkse momenten van rust en stressverlaging',
-  '80%-regel — eten tot je voor 80% vol zit',
-  'Plantaardig eten — vooral plantaardige voeding, weinig vlees',
+  'Beweeg natuurlijk dagelijks actief zonder te sporten',
+  "Doel hebben weten waarom je 's ochtends opstaat",
+  'Ontspanning dagelijkse momenten van rust en stressverlaging',
+  '80%: regel eten tot je voor 80% vol zit',
+  'Plantaardig eten vooral plantaardige voeding, weinig vlees',
   'Train in een persoonlijke en ongedwongen sfeer',
-  'Wijn bij het eten — met mate en in goed gezelschap',
-  'Geloof of zingeving — onderdeel zijn van een gemeenschap',
-  'Familie eerst — investeren in familiebanden',
+  'Wijn bij het eten met mate en in goed gezelschap',
+  'Geloof of zingeving onderdeel zijn van een gemeenschap',
+  'Familie eerst investeren in familiebanden',
 ];
 
 const Separator = () => (
@@ -42,10 +35,10 @@ export default function MarqueeTicker() {
       <div className='absolute inset-y-0 right-0 w-24 z-10 bg-gradient-to-l from-black/40 to-transparent pointer-events-none' />
 
       <div className='py-4 bg-gradient-to-t from-black/25 to-transparent'>
-        <div className={`flex whitespace-nowrap animate-marquee ${cormorant.className}`}>
+        <div className='flex whitespace-nowrap animate-marquee' style={{ fontFamily: 'var(--font-inter), system-ui, sans-serif' }}>
           {items.map((rule, i) => (
             <span key={i} className='inline-flex items-center'>
-              <span className='text-white/95 text-2xl italic font-light tracking-widest drop-shadow-sm'>
+              <span className='text-white/95 text-sm font-medium tracking-wide drop-shadow-sm'>
                 {rule}
               </span>
               <Separator />

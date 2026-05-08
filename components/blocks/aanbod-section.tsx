@@ -22,7 +22,7 @@ const offerings = [
     title: 'Groepslessen',
     subtitle: '15+ lessen per week',
     description:
-      'Bij BlueFit sport je samen! Of je nu zweet bij Sky High (HIIT), kracht opbouwt met Iron Pump, ontspant tijdens Ocean Flow (Yoga) of energie haalt uit Blue Beats (Zumba) — er is altijd een les die bij jou past.',
+      'Bij BlueFit sport je samen! Of je nu zweet bij Sky High (HIIT), kracht opbouwt met Iron Pump, ontspant tijdens Ocean Flow (Yoga) of energie haalt uit Blue Beats (Zumba) er is altijd een les die bij jou past.',
     image: '/offer-groepslessen.jpg',
     href: '/aanbod/groepslessen',
     note: null,
@@ -32,7 +32,7 @@ const offerings = [
     title: 'Personal Training',
     subtitle: '1-op-1 coaching op maat',
     description:
-      'Wil je snellere resultaten, meer motivatie en persoonlijke aandacht? Bij BlueFit Lent verbinden we je met personal trainers die samen met jou werken aan jouw gezondheid, kracht en fitness — allemaal onder het BlueFit-dak.',
+      'Wil je snellere resultaten, meer motivatie en persoonlijke aandacht? Bij BlueFit Lent verbinden we je met personal trainers die samen met jou werken aan jouw gezondheid, kracht en fitness allemaal onder het BlueFit-dak.',
     image: '/offer-personal-training.jpg',
     href: '/aanbod/personal-training',
     note: 'Aangeboden door zelfstandige ondernemer',
@@ -54,7 +54,7 @@ const offerings = [
     description:
       'Last van spierpijn of spanning, of gewoon volledig ontspannen? Bij BlueFit Lent werken we samen met een ervaren ontspanningsmasseur die helpt bij herstel, ontspanning en het voorkomen van blessures.',
     image: '/offer-fitness.jpg',
-    href: '/aanbod/relax-massage',
+    href: '/aanbod/relax',
     note: 'Aangeboden door zelfstandige masseur',
   },
 ];

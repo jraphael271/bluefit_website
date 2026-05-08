@@ -95,6 +95,7 @@ const ScrollExpandMedia = ({
     return () => {
       clearTimeout(timeout);
       cancelAnimationFrame(animFrame);
+      delete document.body.dataset.heroFired;
     };
   }, [autoExpand, autoExpandDelay, autoExpandDuration]);
 

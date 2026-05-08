@@ -496,7 +496,7 @@ export default function FitnessPage() {
             transition={{ duration: 0.5 }}
             className="flex items-center gap-2 text-white/50 text-sm mb-6"
           >
-            <Link href="/aanbod" className="hover:text-white transition-colors duration-150">
+            <Link href="/#aanbod" className="hover:text-white transition-colors duration-150">
               Aanbod
             </Link>
             <span>/</span>

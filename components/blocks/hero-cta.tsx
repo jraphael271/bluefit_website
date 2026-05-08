@@ -26,7 +26,7 @@ export default function HeroCta() {
       >
         Meer dan
         <br />
-        <span className='text-[#7ec8f4]'>een gym.</span>
+        <span className='text-[#7ec8f4]'>een Sportschool.</span>
       </h1>
 
       {/* CTA button */}
