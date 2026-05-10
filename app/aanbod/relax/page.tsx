@@ -9,19 +9,19 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const faq = [
   {
     q: "Voor wie is relax massage geschikt?",
-    a: "Niet alleen voor fanatieke sporters. Als je last hebt van rug-, schouder- of nekklachten door werk, kan massage ook verlichting bieden.",
+    a: "Niet alleen voor fanatieke sporters. Ook als je last hebt van rug-, schouder- of nekklachten door werk kan een relaxmassage in Lent verlichting geven.",
   },
   {
     q: "Doet een relax massage pijn?",
-    a: "Het kan soms wat gevoelig zijn, vooral rond spierknopen. Maar de masseur stemt de intensiteit altijd af op jouw lichaam.",
+    a: "Soms kan het wat gevoelig zijn, vooral bij spierknopen. Maar de masseur stemt de intensiteit altijd af op jouw lichaam.",
   },
   {
     q: "Hoe vaak is een relax massage aan te raden?",
-    a: "Dat hangt af van je training en werkdruk. Fanatieke sporters kiezen vaak voor een massage elke 2–4 weken. Bij klachten kunnen vaker sessies gunstig zijn.",
+    a: "Dat hangt af van je training en belasting. Fanatieke sporters kiezen vaak elke 2–4 weken voor een massage. Bij klachten kan vaker zinvol zijn.",
   },
   {
     q: "Helpt relax massage bij het voorkomen van blessures?",
-    a: "Ja, het helpt spanning te verminderen, de doorbloeding te verbeteren en zo blessures te voorkomen of herstel te versnellen.",
+    a: "Ja, het helpt om spanning te verminderen, doorbloeding te verbeteren en zo blessures te voorkomen of sneller te herstellen.",
   },
   {
     q: "Kan ik een relax massage boeken bij Blue Fit zonder lid te zijn?",
@@ -118,7 +118,7 @@ export default function RelaxPage() {
             transition={{ duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }}
             className="text-white/65 leading-[1.7] text-xl max-w-2xl"
           >
-            Last van spierpijn, spanning of wil je gewoon volledig ontspannen? Bij Blue Fit Lent werken wij samen met een ervaren ontspanningsmasseur die helpt bij herstel, ontspanning en blessurepreventie. Zo voel je je fitter en herstel je sneller na je trainingen.
+            Heb je last van spierpijn, spanning of wil je gewoon even volledig ontspannen? Bij Blue Fit Lent werken we samen met een ervaren ontspanningsmasseur die helpt bij herstel, ontspanning en het voorkomen van blessures. Zo voel je je fitter en herstel je sneller na je trainingen.
           </motion.p>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function RelaxPage() {
               Wat kun je verwachten
             </h2>
             <p className="text-slate-500 leading-[1.75] mb-5">
-              Onze masseur ontvangt je in zijn eigen praktijk in Lent, waar je terechtkunt voor professionele, op maat gemaakte behandelingen. Wij verbinden je graag met hem, zodat jij eenvoudig een afspraak kunt maken.
+              Onze masseur ontvangt je in zijn eigen praktijk in Lent, waar je terechtkunt voor professionele behandelingen op maat. We brengen je graag met hem in contact zodat je eenvoudig een afspraak kunt maken.
             </p>
 
             {/* Note callout */}
@@ -141,12 +141,12 @@ export default function RelaxPage() {
             >
               <p className="text-sm text-slate-700 leading-[1.7]">
                 <span className="font-semibold text-[#1768E5]">Let op: </span>
-                De masseur werkt zelfstandig en buiten Blue Fit. Massages worden direct bij hem geboekt en betaald, maar dankzij onze samenwerking weet je dat je in goede handen bent.
+                De masseur werkt zelfstandig en buiten Blue Fit. De massages worden rechtstreeks met hem geboekt en betaald, maar dankzij onze samenwerking weet je zeker dat je in goede handen bent.
               </p>
             </div>
 
             <p className="text-slate-500 leading-[1.75]">
-              Tijdens een Relax Massage richt onze masseur zich op jouw herstel. De massage stimuleert de doorbloeding, voert afvalstoffen sneller af en helpt spierknopen te verminderen. Of je nu intensief sport of gewoon spanning ervaart van werk of stress — massage helpt je om weer soepel en energiek te bewegen.
+              Tijdens een Relax Massage richt onze masseur zich op jouw herstel. De massage stimuleert de doorbloeding, voert afvalstoffen sneller af en helpt spierknopen te verminderen. Of je nu fanatiek sport of spanning ervaart door werk of stress: massage helpt je om weer soepel en energiek te bewegen.
             </p>
           </div>
 

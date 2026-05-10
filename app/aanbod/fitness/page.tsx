@@ -42,12 +42,12 @@ const features: Feature[] = [
     zone: "Fitnessruimte",
     photo: "/photos/B043.jpg",
     title: "Slimme Apparatuur",
-    body: "Onze slimme apparaten maken training eenvoudiger, gevarieerder en effectiever:",
+    body: "Onze smart apparaten maken trainen makkelijker, diverser én effectiever:",
     bullets: [
-      "Zie hoe elk apparaat werkt via korte instructievideo's",
-      "Train op verschillende manieren: standaard, excentrisch, isokinetisch of elastisch",
-      "Stel het gewicht nauwkeurig af op jouw niveau en doel",
-      "Of je nu beginner bent of ervaren sporter — deze technologie helpt je meer uit elke sessie te halen",
+      "Krijg via korte uitlegvideo's direct te zien hoe elk apparaat werkt.",
+      "Train op verschillende manieren: standaard, excentrisch, isokinetisch of elastisch.",
+      "Stel het gewicht precies af op jouw niveau en doel.",
+      "Of je nu beginnend sporter bent of ervaren atleet: met deze technologie haal je meer uit elke training.",
     ],
   },
   {
@@ -58,7 +58,7 @@ const features: Feature[] = [
     zone: "Cardiopark",
     photo: "/photos/B020.jpg",
     title: "Cardio met Variatie",
-    body: "Hardlopen, fietsen, stair master, crosstrainer, klimmen of roeien — ons cardiopark biedt eindeloze mogelijkheden en meer. Houd je conditie op peil en maak elke training afwisselend.",
+    body: "Hardlopen, fietsen, stairmaster, crosstrainer, klimmen of roeien — ons cardio-park biedt eindeloze mogelijkheden en meer. Zo houd je je conditie op peil en maak je elke training afwisselend.",
     bullets: null,
   },
   {
@@ -69,7 +69,7 @@ const features: Feature[] = [
     zone: "Met trainer",
     photo: "/photos/B012.jpg",
     title: "Persoonlijk Plan, Metingen & Evaluatie",
-    body: "Bij inschrijving raden we altijd aan een afspraak te maken met een trainer om een persoonlijk plan op te stellen. Op basis van onze slimme weegschaal en jouw wensen bouwen we stap voor stap een trainingsschema. We leggen elke oefening uit zodat je goed van start gaat. Als je programma klaar is, evalueren we samen je voortgang en passen we zo nodig bij.",
+    body: "Bij aanmelding raden wij altijd aan een afspraak te maken om met een trainer een persoonlijk plan voor jou te maken. Dit hoort ook gewoon bij onze service. Op basis van onze smart weegschaal en jouw wensen maken we stap voor stap een trainingschema. Vervolgens leggen we graag elke oefening uit zodat je op een goede manier van start kan gaan. Is je trainingsprogramma afgerond, nemen we de vooruitgang graag met je door om eventueel aanpassingen te doen.",
     bullets: null,
   },
   {
@@ -80,7 +80,7 @@ const features: Feature[] = [
     zone: "Functionele Zone",
     photo: "/photos/B002.jpg",
     title: "Krachttraining & Hyrox",
-    body: "In onze functionele zone vind je vrije gewichten, plaat-machines, kabels, dumbbells, weerstandsbanden en veel meer. Alle ruimte die je nodig hebt om jouw training naar eigen inzicht in te richten. Ook perfect als je wilt trainen voor events zoals Hyrox, waarbij kracht en uithoudingsvermogen samenkomen.",
+    body: "In ons functional zone vind je losse gewichten, plate loaded apparaten, kabels, dumbbells, elastieken en nog veel meer. Alle ruimte om je training helemaal naar eigen wens in te vullen. Perfect ook als je je wilt voorbereiden op evenementen als Hyrox, waarbij kracht en uithoudingsvermogen samenkomen.",
     bullets: null,
   },
   {
@@ -90,8 +90,8 @@ const features: Feature[] = [
     category: "Community",
     zone: "Samen sporten",
     photo: "/photos/B036.jpg",
-    title: "Blue Fit Gemeenschap",
-    body: "Bij Blue Fit train je nooit alleen. Onze community is er om elkaar te motiveren, samen te trainen en successen te vieren. Want sporten is leuker — en makkelijker vol te houden — als je het samen doet.",
+    title: "Blue Fit Community",
+    body: "Bij Blue Fit train je nooit alleen. Onze community is er om elkaar te motiveren, samen te trainen en successen te vieren. Want sporten wordt leuker, én makkelijker vol te houden, als je het samen doet.",
     bullets: null,
   },
 ];
@@ -118,11 +118,11 @@ const faq = [
   },
   {
     q: "Wat houdt een persoonlijk plan in?",
-    a: "We willen weten hoe jij leeft, of er blessures of andere beperkingen zijn, en vooral wat jouw doel is. Daarna nemen we metingen. Je krijgt inzicht in je lichaamssamenstelling: gewicht, spiermassa, vetpercentage en vochtbalans. Vervolgens maken we een plan en leggen we dit stap voor stap uit.",
+    a: "We willen weten hoe jij leeft, of er blessures of andere beperkingen zijn, en vooral wat jouw doel is. Daarna nemen we metingen. Je krijgt inzicht in je lichaamssamenstelling: gewicht, spiermassa, vetpercentage en vochtbalans. Zo zie je niet alleen het cijfer op de weegschaal, maar echt wat er in je lichaam verandert. Vervolgens maken we een plan en leggen we dit stap voor stap uit.",
   },
   {
     q: "Zijn er vrije trainingsmogelijkheden naast de machines?",
-    a: "Ja, naast de slimme machines hebben we een functionele zone met vrije gewichten, plaat-machines, kabels en een sled, zodat je vrij kunt trainen en variëren.",
+    a: "Ja, naast de slimme machines hebben we een functional zone met losse gewichten, plate loaded apparaten, kabels en een slee, zodat je vrij kunt trainen en variëren.",
   },
   {
     q: "Kan ik trainen voor HYROX of andere events bij Blue Fit?",
@@ -174,7 +174,7 @@ const faq = [
   },
   {
     q: "Wanneer is er begeleide training?",
-    a: "Begeleiding is beschikbaar elke ochtend ma–vr van 8:15–12:00 en 17:00–21:00, en in het weekend van 8:30–12:00.",
+    a: "Begeleiding is er elke ochtend ma–zo van 8:15 tot 12:00 en doordeweeks ook van 17:00 tot 21:00.",
   },
 ];
 
@@ -543,12 +543,12 @@ export default function FitnessPage() {
               Meer dan alleen bewegen
             </h2>
             <p className="text-slate-500 leading-[1.75]">
-              Bij Blue Fit in Lent geloven we dat fitness meer is dan alleen sporten. Het gaat om duurzame beweging, plezier en werken aan een sterk en gezond lichaam. Onze fitnessruimte is volledig uitgerust met slimme technologie voor kracht en cardio. Onze trainers zijn er om te luisteren, te begeleiden en te motiveren. We blijven je uitdagen om doelen te stellen en te bereiken zodat je blijft groeien — fysiek en mentaal. Zo vindt iedereen een manier van trainen die aansluit bij zijn of haar doelen.
+              Bij Blue Fit in Lent geloven we dat fitness meer is dan sporten alleen. Het gaat om duurzaam bewegen, plezier en werken aan een sterk en gezond lichaam. Onze fitnessruimte is volledig uitgerust met slimme technologie voor kracht en cardio. Daarnaast zijn onze trainers er om te luisteren, te begeleiden en te motiveren. We blijven je uitdagen om doelen te stellen en te halen, zodat je blijft groeien, fysiek én mentaal. Zo vindt iedereen een manier van trainen die past bij zijn of haar doelen.
             </p>
           </div>
           <div className="md:pt-24">
             <p className="text-slate-500 leading-[1.75]">
-              En we doen het samen. Bij Blue Fit is sporten geen solo-activiteit — het is iets wat je deelt. Onze community van Blue Fitters motiveert elkaar, behaalt samen resultaten en geniet van het plezier van sporten in groepsverband.
+              En dat doen we samen. Bij Blue Fit is sporten geen soloding, maar iets dat je deelt. Onze community van Blue Fitters motiveert elkaar, boekt samen resultaten en geniet van het plezier van samen sporten.
             </p>
           </div>
         </div>

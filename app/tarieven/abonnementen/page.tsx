@@ -12,16 +12,16 @@ const mainPlans = [
   {
     id: 'blue',
     name: 'Blue',
-    price: '56',
+    price: '58,50',
     period: '4 weken',
     tagline: 'Meest gekozen',
     popular: true,
     features: [
-      'Gymtoegang van 06:00–23:00',
-      'Onbeperkte groepslessen binnen & buiten',
+      'Toegang tot de gym van 06:00 tot 23:00',
+      'Onbeperkt groepslessen binnen en buiten',
       'Functionele zone',
       'Periodieke persoonlijke metingen',
-      'Cardio & smart apparatuur',
+      'Cardio- en smart apparatuur',
       'Voedingsadvies',
     ],
     cta: 'Start jouw proefweek',
@@ -30,13 +30,13 @@ const mainPlans = [
   {
     id: 'blue-flex',
     name: 'Blue Flex',
-    price: '63',
+    price: '66',
     period: '4 weken',
     tagline: 'Maximale flexibiliteit',
     popular: false,
     features: [
       'Alles van Blue',
-      'Per 4 weken opzegbaar',
+      'Lidmaatschap per 4 weken opzegbaar',
       'Flexibel bevriezen',
     ],
     cta: 'Kies Blue Flex',
@@ -135,10 +135,10 @@ const groupPlans = [
 const extraOptions = [
   {
     id: 'try',
-    name: 'Proefweek',
+    name: 'Try Blue',
     href: 'https://blue-fit.opencontrolplus.nl/membership_onboarding?club_portal=1&membership_group_id=61&outlet_id=137',
     price: 'Gratis',
-    description: 'Één week gratis kennismaken. Daarna €56/4 weken (Blue). Alleen tijdens begeleidingsuren.',
+    description: 'Één week gratis kennismaken. Daarna €58,50/4 weken (Blue-abonnement). Alleen tijdens begeleidingsuren.',
   },
   {
     id: 'dagpas',
@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     q: 'Kan ik eerst proberen?',
-    a: 'Ja, met Try Blue sport je een gratis week. Daarna schakelt het automatisch over naar een Blue-abonnement zonder opzegging. Je kunt ook een dagpas nemen, die wordt verrekend bij lidmaatschap.',
+    a: 'Ja, met Try Blue sport je een gratis week. Daarna €58,50/4 weken (Blue-abonnement). Je kunt ook een dagpas nemen, die wordt verrekend bij lidmaatschap.',
   },
   {
     q: 'Zijn groepslessen inbegrepen in mijn abonnement?',
@@ -243,8 +243,7 @@ export default function AbonnementenPage() {
                 <span className='text-[#1f7bbf]'>in Lent</span>
               </h1>
               <p className='text-[#0d1f3c]/55 text-lg max-w-2xl leading-relaxed mb-8'>
-                365 dagen per jaar sporten, onbeperkte groepslessen en altijd begeleiding —
-                alles onder één dak bij BlueFit. Kies het abonnement dat bij jou past.
+                Bij Blue Fit sport je 365 dagen per jaar, volg je onbeperkt groepslessen, maak je gebruik van moderne apparatuur en kun je altijd terecht met jouw vragen. Of je nu kiest voor fitness, groepslessen of personal training: er is altijd een abonnement dat bij je past.
               </p>
               <div className='flex flex-wrap gap-3'>
                 <Link

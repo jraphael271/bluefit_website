@@ -15,27 +15,21 @@ const trainers = [
     intro:
       "Burak is een gecertificeerde personal trainer met een passie voor krachtontwikkeling en leefstijlcoaching. Hij helpt je resultaten te boeken die je zelf niet voor mogelijk hield.",
   },
-  {
-    name: "Richey",
-    photo: "https://placehold.co/400x400/0FA3B1/ffffff?text=Richey",
-    intro:
-      "Richey specialiseert zich in functionele training en revalidatie. Met zijn no-nonsense aanpak en oprechte betrokkenheid haalt hij het beste uit elke sporter.",
-  },
 ];
 
 const testimonials = [
   {
-    quote: "Ik wilde afvallen en fitter worden, maar lukte me niet alleen. Met de begeleiding van mijn personal trainer bij Blue Fit ben ik 8 kilo afgevallen en voel ik me sterker dan ooit.",
+    quote: "Ik wilde afvallen en fitter worden, maar alleen lukte het me niet. Met de begeleiding van mijn personal trainer bij Blue Fit ben ik al 8 kilo kwijt en voel ik me sterker dan ooit.",
     author: "Linda",
     age: 37,
   },
   {
-    quote: "Dankzij de 1-op-1 coaching kon ik na een blessure veilig weer sporten. Mijn trainer focuste op techniek en bouwde alles geleidelijk op. Nu ben ik pijnvrij en sterker.",
+    quote: "Dankzij de 1-op-1 begeleiding kon ik weer veilig sporten na een blessure. Mijn trainer lette op techniek en bouwde alles rustig op. Nu ben ik pijnvrij én sterker.",
     author: "Mark",
     age: 44,
   },
   {
-    quote: "Het mooie aan personal training bij Blue Fit is dat het hele plaatje wordt bekeken: training, voeding en herstel. Daardoor boek ik nu écht duurzame resultaten.",
+    quote: "Het fijne aan personal training bij Blue Fit is dat er naar het totaalplaatje wordt gekeken: training, voeding én herstel. Daardoor behaal ik nu echt duurzame resultaten.",
     author: "Sophie",
     age: 29,
   },
@@ -43,24 +37,24 @@ const testimonials = [
 
 const faq = [
   {
-    q: "Hoe vaak moet ik personal training doen om resultaten te zien?",
-    a: "Dat hangt af van je doel. Veel Blue Fitters starten met 1–2 sessies per week. Samen met je trainer maak je een plan dat past bij jouw leven.",
+    q: "Hoe vaak moet ik personal training in Lent volgen voor resultaat?",
+    a: "Dat hangt af van je doel. Veel Blue Fitters starten met 1 à 2 sessies per week. Samen met jouw personal trainer in Lent stel je een plan op dat bij je leven past.",
   },
   {
-    q: "Is personal training alleen voor gevorderde sporters?",
-    a: "Nee, juist beginners profiteren enorm van personal training. De trainer past oefeningen volledig aan jouw niveau en ervaring aan.",
+    q: "Is personal training in Nijmegen alleen voor gevorderden?",
+    a: "Nee, juist beginners hebben veel baat bij personal training. De trainer past de oefeningen volledig aan jouw niveau en ervaring aan.",
   },
   {
-    q: "Kan ik personal training combineren met groepslessen?",
-    a: "Zeker. Veel leden combineren 1-op-1 coaching met groepslessen of fitness. Zo boek je sneller resultaten en blijf je van je workouts genieten.",
+    q: "Kan ik personal training combineren met groepslessen in Lent?",
+    a: "Zeker. Veel leden combineren 1-op-1 begeleiding met groepslessen of fitness. Zo behaal je sneller resultaat én houd je plezier in sporten.",
   },
   {
-    q: "Hoe lang duurt een personal training sessie?",
+    q: "Hoe lang duurt een personal training sessie bij Blue Fit?",
     a: "Gemiddeld 45 tot 60 minuten. Dit wordt afgestemd op jouw doel en persoonlijke voorkeur.",
   },
   {
     q: "Is personal training duur?",
-    a: "Je investeert in persoonlijke begeleiding en snellere resultaten. We bieden ook pakketten en duo-training aan die voordeliger zijn.",
+    a: "Je investeert in persoonlijke begeleiding en sneller resultaat. Bovendien bieden we pakketten en duo-trainingen die voordeliger zijn.",
   },
 ];
 
@@ -175,8 +169,7 @@ export default function PersonalTrainingPage() {
             transition={{ duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }}
             className="text-white/65 leading-[1.7] text-xl max-w-2xl"
           >
-            Snellere resultaten, meer motivatie en persoonlijke aandacht — onze personal trainers
-            werken samen met jou aan jouw gezondheid, kracht en conditie.
+            Wil je sneller resultaat, meer motivatie en persoonlijke aandacht? Bij Blue Fit Lent werken we samen met onze personal trainers aan jouw gezondheid, kracht en conditie — allemaal onder het Blue Fit-dak.
           </motion.p>
         </div>
       </section>
@@ -192,10 +185,10 @@ export default function PersonalTrainingPage() {
               Wat kun je verwachten
             </h2>
             <p className="text-slate-500 leading-[1.75] mb-5">
-              Wil je sneller resultaten, meer motivatie en persoonlijke aandacht? Daarvoor hebben we personal training bij Blue Fit Lent. We kunnen je in contact brengen met onze personal trainers die graag met jou samenwerken aan deze punten. Ze bieden de begeleiding die jij nodig hebt, en samen met hen kun je doelgericht werken aan jouw gezondheid, kracht en conditie — allemaal onder het dak van Blue Fit.
+              Wil je sneller resultaat, meer motivatie en persoonlijke aandacht? Hiervoor hebben we personal training bij Blue Fit Lent. We kunnen je in contact brengen met onze personal trainers die graag met je aan de slag gaan om deze punten te verbeteren! Ze geven je de begeleiding die je nodig hebt en samen met hen kun je doelgericht werken aan je gezondheid, kracht en conditie. Dit alles doe je onder het dak van Blue Fit.
             </p>
             <p className="text-slate-500 leading-[1.75] mb-6">
-              Personal Training draait om maatwerk. Je trainer maakt een programma dat aansluit op jouw doelen: gewicht verliezen, spiermassa opbouwen, conditie verbeteren of fitter worden in het dagelijks leven. Je traint met de nieuwste apparatuur, krijgt technische begeleiding en wordt uitgedaagd op een manier die bij jou past. We kijken ook naar jouw leefstijl — voeding, slaap en herstel — zodat je het maximale uit jezelf kunt halen.
+              Bij Personal Training draait alles om maatwerk. Onze trainer stelt een programma op dat past bij jouw doelen: afvallen, spieropbouw, conditie verbeteren of fitter worden in het dagelijks leven. Je traint met de nieuwste apparatuur, krijgt technische begeleiding en wordt uitgedaagd op een manier die bij jou past. Daarnaast kijken we naar jouw leefstijl — voeding, slaap en herstel — zodat je het maximale uit jezelf kunt halen.
             </p>
 
             {/* Note */}
@@ -203,7 +196,7 @@ export default function PersonalTrainingPage() {
               className="rounded-2xl p-5 border border-[#1768E5]/20 bg-[#1768E5]/5"
             >
               <p className="text-sm text-slate-600 leading-[1.7]">
-                <span className="font-semibold text-slate-800">Let op:</span> De personal trainer is een zelfstandig ondernemer en biedt zijn diensten aan naast jouw Blue Fit-lidmaatschap. Je boekt en betaalt de trainingsessies rechtstreeks bij hem, maar hij werkt binnen onze locatie — vertrouwd en laagdrempelig!
+                <span className="font-semibold text-slate-800">Let op:</span> De personal trainer is zelfstandig ondernemer en biedt zijn diensten naast je Blue Fit-lidmaatschap aan. Je boekt en betaalt zijn trainingen dus apart, maar hij werkt wél binnen onze faciliteit — handig en vertrouwd!
               </p>
             </div>
           </div>
@@ -214,11 +207,11 @@ export default function PersonalTrainingPage() {
               <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-4">Voordelen</h3>
               <ul className="space-y-3">
                 {[
-                  "1-op-1 coaching met persoonlijke aandacht",
+                  "1-op-1 begeleiding met persoonlijke aandacht",
                   "Trainingsplan volledig afgestemd op jouw doelen",
-                  "Snellere en veiligere resultaten",
-                  "Extra motivatie van jouw trainer",
-                  "Ook mogelijk in kleine groepen (duo of kleine groepstraining)",
+                  "Sneller en veiliger resultaat",
+                  "Extra motivatie door je trainer",
+                  "Ook mogelijk in kleine groepjes (duo- of small group training)",
                 ].map((b) => (
                   <li key={b} className="flex items-start gap-3 text-sm text-slate-700">
                     <span className="mt-1.5 w-1.5 h-1.5 rounded-full flex-shrink-0 bg-[#1768E5]" />
@@ -231,7 +224,7 @@ export default function PersonalTrainingPage() {
             {/* Practical info */}
             <div className="grid grid-cols-1 gap-3">
               {[
-                { label: "Doel", value: "Persoonlijke resultaten (afvallen, sterker worden, gezondere leefstijl)" },
+                { label: "Doel", value: "Persoonlijk resultaat (afvallen, sterker worden, fitter leven)" },
                 { label: "Duur", value: "45–60 minuten per sessie" },
               ].map((item) => (
                 <div

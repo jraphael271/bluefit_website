@@ -12,7 +12,7 @@ const offerings = [
     title: 'Fitness',
     subtitle: 'Kracht · Cardio · Functioneel',
     description:
-      'Bij BlueFit geloven we dat fitness meer is dan alleen bewegen. Het gaat om duurzame beweging, plezier en werken aan een sterk en gezond lichaam. Onze trainers zijn er om te luisteren, te begeleiden en te motiveren.',
+      'Bij Blue Fit in Lent geloven we dat fitness meer is dan sporten alleen. Het gaat om duurzaam bewegen, plezier en werken aan een sterk en gezond lichaam. Onze fitnessruimte is volledig uitgerust met slimme technologie voor kracht en cardio. Onze trainers zijn er om te luisteren, te begeleiden en te motiveren.',
     image: '/offer-massage.jpg',
     href: '/aanbod/fitness',
     note: null,
@@ -22,7 +22,7 @@ const offerings = [
     title: 'Groepslessen',
     subtitle: '15+ lessen per week',
     description:
-      'Bij BlueFit sport je samen! Of je nu zweet bij Sky High (HIIT), kracht opbouwt met Iron Pump, ontspant tijdens Ocean Flow (Yoga) of energie haalt uit Blue Beats (Zumba) er is altijd een les die bij jou past.',
+      'Bij Blue Fit maken we van elke groepsles een beleving. Of je nu komt zweten bij Sky High (HIIT), je kracht wilt opbouwen met Iron Pump, wilt ontspannen tijdens Ocean Flow (Yoga) of de energie van Blue Beats (Zumba) wilt voelen, er is altijd een les die bij jou past.',
     image: '/offer-groepslessen.jpg',
     href: '/aanbod/groepslessen',
     note: null,
@@ -32,7 +32,7 @@ const offerings = [
     title: 'Personal Training',
     subtitle: '1-op-1 coaching op maat',
     description:
-      'Wil je snellere resultaten, meer motivatie en persoonlijke aandacht? Bij BlueFit Lent verbinden we je met personal trainers die samen met jou werken aan jouw gezondheid, kracht en fitness allemaal onder het BlueFit-dak.',
+      'Wil je sneller resultaat, meer motivatie en persoonlijke aandacht? Bij Blue Fit Lent kunnen we je in contact brengen met onze personal trainers die graag met je aan de slag gaan aan je gezondheid, kracht en conditie — allemaal onder het Blue Fit-dak.',
     image: '/offer-personal-training.jpg',
     href: '/aanbod/personal-training',
     note: 'Aangeboden door zelfstandige ondernemer',
@@ -42,7 +42,7 @@ const offerings = [
     title: 'Voedingsadvies',
     subtitle: 'Orthomoleculaire begeleiding',
     description:
-      'Gezonde voeding is de basis van een fit en energiek leven. Met voedingsadvies bij BlueFit krijg je begeleiding van een orthomoleculaire voedingsdeskundige die samen met jou kijkt naar jouw levensstijl, doelen en uitdagingen.',
+      'Gezond eten is de basis van een fit en energiek leven. Met voedingsadvies bij Blue Fit in Lent krijg je begeleiding van een orthomoleculair voedingsdeskundige die samen met jou kijkt naar je leefstijl, doelen en uitdagingen.',
     image: '/offer-voeding.jpg',
     href: '/aanbod/voeding',
     note: 'Aangeboden door zelfstandige deskundige',
@@ -52,7 +52,7 @@ const offerings = [
     title: 'Relax Massage',
     subtitle: 'Herstel & ontspanning',
     description:
-      'Last van spierpijn of spanning, of gewoon volledig ontspannen? Bij BlueFit Lent werken we samen met een ervaren ontspanningsmasseur die helpt bij herstel, ontspanning en het voorkomen van blessures.',
+      'Heb je last van spierpijn, spanning of wil je gewoon even volledig ontspannen? Bij Blue Fit Lent werken we samen met een ervaren ontspanningsmasseur die helpt bij herstel, ontspanning en het voorkomen van blessures.',
     image: '/offer-fitness.jpg',
     href: '/aanbod/relax',
     note: 'Aangeboden door zelfstandige masseur',

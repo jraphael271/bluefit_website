@@ -43,7 +43,7 @@ const classes: Class[] = [
     intro:
       "Op zoek naar een fijne plek voor yoga in Lent of een toegankelijke yogales in Nijmegen? Dan is Ocean Flow bij Blue Fit iets voor jou.",
     description:
-      "Tijdens Ocean Flow werk je mee in vloeiende reeksen van houdingen. De focus ligt op ademhaling, soepelheid en bewuste beweging. Onze trainer begeleidt je stap voor stap, waardoor de les zowel geschikt is voor beginners als ervaren yogi's.",
+      "Tijdens de Ocean Flow neem je deel aan vloeiende series van houdingen die elkaar opvolgen. De focus ligt op ademhaling, souplesse en bewust bewegen. Onze trainer begeleidt je stap voor stap, waardoor de les geschikt is voor zowel beginners als ervaren yogi's.",
     benefits: [
       "Vermindert stress en bevordert ontspanning",
       "Verbetert flexibiliteit en houding",
@@ -73,7 +73,7 @@ const classes: Class[] = [
     intro:
       "Wil je maximale resultaten in korte tijd? Kies Sky High HIIT in Lent bij Blue Fit. Een intensieve les met korte, explosieve intervallen.",
     description:
-      "Tijdens Sky High train je in hoge-intensiteitsintervallen, afgewisseld met korte rustperiodes. Denk aan burpees, box jumps, sprints en kettlebell swings. Het tempo is hoog, de groepsenergie trekt je mee en de afterburn zorgt dat je ook na de training calorieën blijft verbranden.",
+      "Tijdens Sky High train je in intervallen van hoge intensiteit, afgewisseld met korte rustmomenten. Denk aan burpees, box jumps, sprints en kettlebell swings. Het tempo ligt hoog, de energie van de groep trekt je mee en de afterburn zorgt dat je ook ná de training calorieën blijft verbranden.",
     benefits: [
       "Effectieve training in korte tijd",
       "Boost voor kracht én conditie",
@@ -105,9 +105,9 @@ const classes: Class[] = [
     tagColor: "#D97706",
     photo: "/photos/B034.jpg",
     intro:
-      "Uniek bij Blue Fit: deze speciaal ontworpen les is een explosieve full-body workout die kracht en cardio combineert voor maximale resultaten.",
+      "Uniek bij Blue, deze eigen ontworpen les is een full-body workout die kracht en cardio combineert voor maximaal resultaat.",
     description:
-      "Tijdens Shred It Blue wissel je intensieve krachtsoefeningen af met conditioneringsintervallen op de fiets. Denk aan squats, deadlifts en bicep curls. Je traint samen met andere Blue Fitters in een motiverende groepssfeer. Onze trainer zorgt dat iedereen op eigen niveau kan deelnemen.",
+      "Tijdens Shred It Blue wissel je intensieve krachtoefeningen af met conditionele intervallen op de fiets. Denk aan squats, deadlifts en bicep curls. Je traint samen met andere Blue Fitters in een motiverende groepssfeer. Wil je op een rustiger niveau instappen? We hebben ook de light versie.",
     benefits: [
       "Verbrandt snel calorieën",
       "Verbetert zowel kracht als conditie",
@@ -139,9 +139,9 @@ const classes: Class[] = [
     tagColor: "#7B61FF",
     photo: "/photos/B040.jpg",
     intro:
-      "Wil je sterker worden en werken aan spierbouw? Kies Iron Pump bij Blue Fit in Lent, de groepsles waarbij conditiekrachttraining op de maat van de muziek centraal staat.",
+      "Wil je sterker worden en werken aan je spieropbouw? Kies voor Iron Pump bij Blue Fit in Lent, dé groepsles waarin conditionele krachttraining op het ritme van de muziek centraal staat.",
     description:
-      "Tijdens Iron Pump train je met barbells en vrije gewichten. Je werkt in blokken gericht op verschillende spiergroepen: benen, borst, rug, armen en core. De groepssfeer en motiverende beats helpen je altijd verder.",
+      "Tijdens Iron Pump train je met stangen en losse gewichten. Je werkt in blokken waarin verschillende spiergroepen aan bod komen: benen, borst, rug, armen en core. Dankzij de groepssfeer en motiverende beats haal je altijd meer uit jezelf.",
     benefits: [
       "Vergroot spierkracht en spiermassa",
       "Techniektraining onder begeleiding",
@@ -207,9 +207,9 @@ const classes: Class[] = [
     tagColor: "#3BB273",
     photo: "/photos/B042.jpg",
     intro:
-      "Wil je sporten in de frisse buitenlucht? Met Bootcamp in Lent bij Blue Fit werk je in een groep aan kracht, conditie en uithoudingsvermogen.",
+      "Wil je sporten in de frisse buitenlucht? Met Bootcamp in Lent bij Blue Fit werk je in groepsverband aan kracht, conditie en uithoudingsvermogen.",
     description:
-      "Elke Bootcamp is anders. Je doet een mix van hardloopsprints, push-ups, squats, intervaltraining en spelelementen. Onder begeleiding van een trainer werk je met je eigen lichaamsgewicht en uitdagende oefeningen. De groepsdynamiek geeft extra motivatie.",
+      "Elke Bootcamp is anders. Je doet een mix van hardloopsprints, push-ups, squats, intervaltraining en spelelementen. Onder begeleiding van een trainer ga je aan de slag met je eigen lichaamsgewicht en uitdagende oefeningen.",
     benefits: [
       "Complete full-body workout",
       "Werkt aan zowel kracht als conditie",
@@ -241,9 +241,9 @@ const classes: Class[] = [
     tagColor: "#E879A0",
     photo: "/photos/B018.jpg",
     intro:
-      "Hou jij van muziek en beweging? Dan is Blue Beats jouw groepsles! Deze Zumba-les in Lent combineert dans, cardio en plezier in één.",
+      "Hou je van muziek en bewegen? Dan is Blue Beats jouw groepsles! Deze Zumba-les in Lent combineert dans, cardio en fun in één.",
     description:
-      "Tijdens Blue Beats volg je ritmische bewegingen en danscombinaties op opzwepende muziek. De les is voor iedereen toegankelijk — je beweegt op jouw niveau en geniet van het plezier in de groep. Ideaal om fit te worden zonder dat het als sporten voelt.",
+      "Tijdens Blue Beats volg je ritmische bewegingen en danscombinaties op opzwepende muziek. De les is toegankelijk voor iedereen: je beweegt op je eigen niveau en geniet van het plezier in de groep. Ideaal om fit te worden zonder dat het voelt als sporten.",
     benefits: [
       "Cardio en plezier in één les",
       "Verbetert coördinatie en ritme",
@@ -275,9 +275,9 @@ const classes: Class[] = [
     tagColor: "#F59E0B",
     photo: "/photos/B007.jpg",
     intro:
-      "Wil je veilig blijven sporten tijdens of na je zwangerschap? Mama Flow in Lent is speciaal ontwikkeld voor (aanstaande) moeders.",
+      "Wil je tijdens of na je zwangerschap veilig blijven bewegen? Mama Flow in Lent is speciaal ontwikkeld voor (aanstaande) moeders die willen werken aan herstel, mobiliteit en balans.",
     description:
-      "De les bestaat uit zachte, veilige yoga-oefeningen gericht op de bekkenbodem, ademhaling en lichte kracht. Onze ervaren trainer houdt rekening met de fase waarin je zit, zodat de les altijd aansluit bij jouw lichaam.",
+      "De les bestaat uit rustige, veilige yoga oefeningen gericht op bekkenbodem, ademhaling en lichte kracht. Onze ervaren trainer houdt rekening met de fase waarin jij zit, zodat de les altijd aansluit bij jouw lichaam.",
     benefits: [
       "Veilig trainen tijdens en na de zwangerschap",
       "Focus op herstel en balans",
@@ -309,9 +309,9 @@ const classes: Class[] = [
     tagColor: "#0FA3B1",
     photo: "/photos/B005.jpg",
     intro:
-      "Wil je vitaal en actief blijven op een manier die bij jouw leeftijd past? Blue Icons is de seniorenfitness groepsles in Lent.",
+      "Wil je vitaal en in beweging blijven op een manier die past bij jouw leeftijd? Blue Icons is de senioren fitness groepsles in Lent waar je werkt aan kracht, balans en energie, samen met leeftijdsgenoten.",
     description:
-      "Tijdens Blue Icons doe je functionele oefeningen gericht op mobiliteit, balans en spierkracht. Alles gaat op een rustig tempo onder begeleiding van een ervaren trainer. De nadruk ligt op gezonde beweging en plezier in een sociale, gezellige setting.",
+      "Tijdens Blue Icons doe je functionele oefeningen gericht op mobiliteit, balans en spierkracht. Alles in een rustig tempo en onder begeleiding van een ervaren trainer.",
     benefits: [
       "Houdt spieren en gewrichten soepel",
       "Verbetert balans en stabiliteit",
@@ -426,11 +426,11 @@ const classes: Class[] = [
 const generalFaq = [
   {
     q: "Heb ik ervaring nodig om mee te doen aan een groepsles?",
-    a: "Nee, onze groepslessen zijn toegankelijk voor alle niveaus. De trainer biedt altijd opties en variaties zodat je op eigen tempo kunt meedoen.",
+    a: "Nee, onze groepslessen zijn toegankelijk voor alle niveaus. De trainer geeft altijd opties en variaties, zodat je op je eigen tempo kunt meedoen.",
   },
   {
     q: "Hoe schrijf ik me in voor een groepsles?",
-    a: "Je schrijft je eenvoudig in via de Blue Fit klantenportal. Zo weet je zeker dat je plek gereserveerd is.",
+    a: "Je meldt je eenvoudig aan via de Blue Fit klantenportaal. Zo weet je zeker dat je plek gereserveerd is.",
   },
   {
     q: "Wat als ik na inschrijving toch niet kan?",
@@ -438,7 +438,7 @@ const generalFaq = [
   },
   {
     q: "Zijn groepslessen inbegrepen bij mijn abonnement?",
-    a: "Ja, groepslessen zijn onderdeel van jouw Blue Fit-lidmaatschap. Je kunt onbeperkt deelnemen, tenzij je een speciale tariefregeling hebt.",
+    a: "Ja, groepslessen zijn onderdeel van je Blue Fit lidmaatschap. Je kunt dus onbeperkt meedoen.",
   },
   {
     q: "Wat moet ik meenemen naar een groepsles?",
@@ -446,7 +446,7 @@ const generalFaq = [
   },
   {
     q: "Hoe intensief zijn de groepslessen?",
-    a: "Dat verschilt per les. Elke les heeft een intensiteitsindicator (●○○ / ●●○ / ●●●), zodat je makkelijk een les kunt kiezen die bij jouw niveau past.",
+    a: "Dat verschilt per les. Bij elke les staat een indicatie van de intensiteit (●○○ / ●●○ / ●●●). Zo kies je gemakkelijk een les die bij jouw niveau past.",
   },
   {
     q: "Kan ik een groepsles eerst uitproberen?",

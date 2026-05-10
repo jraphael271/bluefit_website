@@ -11,25 +11,25 @@ const values = [
     id: 'bewegen',
     icon: Activity,
     title: 'Bewegen',
-    body: 'Bij BlueFit geloven we dat beweging de basis is van een vitaal leven. Of het nu een intensieve workout is, een wandeling in de natuur of een speelse training met anderen beweging geeft energie, zelfvertrouwen en balans. We stimuleren een actieve levensstijl op een manier die bij jou past: duurzaam en met plezier.',
+    body: 'Bij Blue Fit geloven we dat beweging de basis is van een vitaal leven. Of het nu gaat om een intensieve training, een wandeling in de natuur of een speelse workout met anderen, bewegen geeft energie, zelfvertrouwen en balans. We stimuleren een actieve leefstijl op een manier die bij jou past, duurzaam en met plezier.',
   },
   {
     id: 'voeding',
     icon: Leaf,
     title: 'Gezonde Voeding',
-    body: 'Gezonde voeding is brandstof voor lichaam en geest. We helpen je bewuste keuzes te maken die niet draaien om strikte regels, maar om balans en genot. Met kennis, inspiratie en praktische tips maken we gezond eten haalbaar en leuk elke dag.',
+    body: 'Gezonde voeding is brandstof voor lichaam en geest. Wij helpen je bewuste keuzes te maken die niet draaien om strenge regels, maar om balans en genieten. Met kennis, inspiratie en praktische tips maken we gezonde voeding haalbaar en leuk, elke dag opnieuw.',
   },
   {
     id: 'purpose',
     icon: Compass,
     title: 'Purpose',
-    body: 'Echte vitaliteit komt van binnenuit. BlueFit gaat verder dan alleen fysiek fit zijn: het gaat ook om zingeving, groei en doen wat je écht gelukkig maakt. Samen ontdekken we wat jou drijft, zodat je met energie en betekenis leeft.',
+    body: 'Echte vitaliteit komt van binnenuit. Blue Fit gaat verder dan alleen fysiek fit zijn: het draait ook om zingeving, groei en doen wat jou écht gelukkig maakt. Samen ontdekken we wat jou drijft, zodat je met energie en betekenis in het leven staat.',
   },
   {
     id: 'community',
     icon: Users,
     title: 'Community',
-    body: 'Bij BlueFit doen we het samen. Onze community is een plek van verbinding, motivatie en ondersteuning. We delen successen, overwinnen uitdagingen en inspireren elkaar om elke dag een beetje fitter, sterker en gelukkiger te worden. Want samen ga je verder.',
+    body: 'Bij Blue Fit doen we het samen. Onze community is een plek van verbinding, motivatie en steun. We delen successen, overwinnen uitdagingen en inspireren elkaar om elke dag een stap fitter, sterker en blijer te worden. Want samen kom je verder.',
   },
 ];
 
@@ -102,14 +102,14 @@ export default function OverOnsSection() {
             className='flex flex-col gap-5'
           >
             <p className='text-[#0d1f3c]/65 text-lg leading-relaxed'>
-              BlueFit is opgericht met één duidelijke missie: een sportschool creëren waar gezondheid verder gaat dan alleen trainen. Geïnspireerd door de principes van de Blue Zones gebieden in de wereld waar mensen langer en gezonder leven bouwen we een plek waar beweging, voeding, zingeving en verbinding samenkomen.
+              Blue Fit is in 2025 ontstaan vanuit een duidelijke missie: een sportschool creëren waar gezondheid verder gaat dan alleen trainen. Geïnspireerd door de principes uit de Blue Zones, gebieden in de wereld waar mensen langer en gezonder leven, bouwen wij aan een plek waar beweging, voeding, zingeving en verbinding samenkomen.
             </p>
             <p className='text-[#0d1f3c]/65 leading-relaxed'>
-              We willen meer zijn dan een gym. BlueFit is een community waar mensen elkaar motiveren, inspireren en ondersteunen op weg naar een gezond, gelukkig en betekenisvol leven.
+              Wij willen meer zijn dan een sportschool. Blue Fit is een community waar mensen elkaar motiveren, inspireren en ondersteunen op weg naar een gezond, gelukkig en betekenisvol leven.
             </p>
             <blockquote className='mt-2 pl-5 border-l-2 border-[#1f7bbf]'>
               <p className='text-[#0d1f3c] font-semibold leading-snug italic'>
-                &ldquo;BlueFit wil de Blue Zone aan de Waal creëren een plek waar mensen samen werken aan een duurzame levensstijl.&rdquo;
+                &ldquo;Blue Fit wil De Blue Zone aan de Waal creëren — een plek waar mensen samen werken aan een duurzame leefstijl. Een omgeving waarin gezond leven vanzelfsprekend wordt, met aandacht voor lichaam, geest en verbinding met anderen.&rdquo;
               </p>
             </blockquote>
           </motion.div>

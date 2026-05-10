@@ -27,15 +27,15 @@ const testimonials = [
 const faq = [
   {
     q: "Is voedingsadvies alleen voor afvallen?",
-    a: "Nee, onze diëtist helpt ook bij spiermassa opbouwen, sportvoeding, medische aandoeningen of gewoon gezonder eten.",
+    a: "Nee, onze voedingsdeskundige in Lent helpt ook bij spieropbouw, sportvoeding, medische klachten of simpelweg gezonder eten.",
   },
   {
-    q: "Hoe werkt een afspraak met de diëtist?",
-    a: "Tijdens de intake van 20 minuten bespreken we jouw doelen, leefstijl en eetpatroon. Je ontvangt daarna een persoonlijk plan op basis van onze slimme weegschaalmetingen.",
+    q: "Hoe verloopt een afspraak bij de voedingsdeskundige?",
+    a: "Tijdens de intake bespreken we jouw doelen, leefstijl en voedingspatroon. Daarna ontvang je een persoonlijk plan op maat aan de hand van onze weegschaal.",
   },
   {
     q: "Kan ik voedingsadvies combineren met personal training?",
-    a: "Absoluut. De combinatie van voeding en training geeft de beste resultaten.",
+    a: "Absoluut. Juist de combinatie van voeding en training zorgt voor de beste resultaten.",
   },
 ];
 
@@ -143,10 +143,10 @@ export default function VoedingPage() {
               Wat kun je verwachten
             </h2>
             <p className="text-slate-500 leading-[1.75] mb-5">
-              Gezond eten is de basis van een fit en energiek leven. Met voedingsadvies bij Blue Fit in Lent ontvang je begeleiding van een orthomoleculaire diëtist die samen met jou kijkt naar jouw leefstijl, doelen en uitdagingen. Of je nu wil afvallen, spiermassa wil opbouwen of gewoon gezonder wil leven — we helpen je stap voor stap vooruit.
+              Gezond eten is de basis van een fit en energiek leven. Met voedingsadvies bij Blue Fit in Lent krijg je begeleiding van een orthomoleculair voedingsdeskundige die samen met jou kijkt naar je leefstijl, doelen en uitdagingen. Of je nu wilt afvallen, spiermassa wilt opbouwen of gewoon gezonder wilt leven — wij helpen je stap voor stap vooruit.
             </p>
             <p className="text-slate-500 leading-[1.75]">
-              Tijdens de intake bespreken we jouw doelen en huidig eetpatroon. De diëtist stelt vervolgens een persoonlijk voedingsplan op dat past bij jouw lichaam, dagindeling en voorkeuren. Geen streng dieet, maar haalbare en duurzame keuzes. Je leert hoe voeding kan bijdragen aan meer energie, betere sportprestaties en een gezond gewicht.
+              Tijdens de intake bespreken we jouw doelen en huidige eetpatroon. Daarna stelt de voedingsdeskundige een persoonlijk voedingsplan op dat past bij jouw lichaam, dagindeling en voorkeuren. Geen streng dieet, maar haalbare en duurzame keuzes. Je leert hoe voeding kan bijdragen aan meer energie, betere sportprestaties en een gezond gewicht.
             </p>
           </div>
 

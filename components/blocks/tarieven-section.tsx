@@ -25,16 +25,16 @@ const plans = [
   {
     id: 'blue',
     name: 'Blue',
-    price: '56',
+    price: '58,50',
     period: '4 weken',
     tagline: 'Meest gekozen',
     popular: true,
     features: [
-      'Gymtoegang van 06:00–23:00',
-      'Onbeperkte groepslessen binnen & buiten',
+      'Toegang tot de gym van 06:00 tot 23:00',
+      'Onbeperkt groepslessen binnen en buiten',
       'Functionele zone',
       'Periodieke persoonlijke metingen',
-      'Cardio & smart apparatuur',
+      'Cardio- en smart apparatuur',
       'Voedingsadvies',
     ],
     cta: 'Kies Blue',
@@ -43,13 +43,13 @@ const plans = [
   {
     id: 'blue-flex',
     name: 'Blue Flex',
-    price: '63',
+    price: '66',
     period: '4 weken',
     tagline: 'Maximale flexibiliteit',
     popular: false,
     features: [
       'Alles van Blue',
-      'Per 4 weken opzegbaar',
+      'Lidmaatschap per 4 weken opzegbaar',
       'Flexibel bevriezen',
     ],
     cta: 'Kies Blue Flex',
@@ -65,7 +65,7 @@ const plans = [
     accent: true,
     features: [
       'Één week gratis kennismaken',
-      'Daarna €56/4 weken (Blue)',
+      'Daarna €58,50/4 weken (Blue)',
       'Tijdens begeleidingsuren',
     ],
     cta: 'Start gratis',
@@ -113,7 +113,7 @@ export default function TarievenSection() {
           <span className='text-[#1f7bbf]'>dat bij jou past</span>
         </h2>
         <p className='text-[#0d1f3c]/50 mt-4 max-w-xl leading-relaxed'>
-          Bij BlueFit sport je 365 dagen per jaar, volg je onbeperkt groepslessen, gebruik je moderne apparatuur en kun je altijd bij ons terecht met je vragen. Of je nu kiest voor fitness, groepslessen of personal training: er is altijd een abonnement dat bij jou past.
+          Bij Blue Fit sport je 365 dagen per jaar, volg je onbeperkt groepslessen, gebruik je moderne apparatuur en kun je altijd bij ons terecht met je vragen. Of je nu kiest voor fitness, groepslessen of personal training: er is altijd een abonnement dat bij jou past.
         </p>
       </motion.div>
 
