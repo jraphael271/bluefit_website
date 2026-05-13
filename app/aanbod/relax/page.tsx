@@ -212,7 +212,7 @@ export default function RelaxPage() {
             Neem contact op via de balie en wij verbinden je met onze masseur. Ook toegankelijk voor niet-leden.
           </p>
           <Link
-            href="/contact"
+            href="/#contact"
             className="inline-flex items-center gap-2 bg-white text-[#1768E5] px-8 py-4 rounded-full text-sm font-bold
                        transition-transform duration-200 hover:scale-[1.03] active:scale-[0.97]
                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
