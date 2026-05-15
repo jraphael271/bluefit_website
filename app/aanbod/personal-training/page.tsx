@@ -349,18 +349,18 @@ export default function PersonalTrainingPage() {
       <section className="bg-[#1768E5] py-20">
         <div className="max-w-3xl mx-auto px-6 text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">
-            Doe een week gratis mee
+            Plan een intakegesprek
           </h2>
           <p className="text-white/75 leading-[1.7] mb-8 text-lg">
-            Ervaar zelf wat personal training bij Blue Fit voor jou kan doen. Geen verplichtingen, geen risico.
+            Ontdek wat personal training bij Blue Fit voor jou kan betekenen. Geen verplichtingen, geen risico.
           </p>
           <Link
-            href="/tarieven"
+            href="/#contact"
             className="inline-flex items-center gap-2 bg-white text-[#1768E5] px-8 py-4 rounded-full text-sm font-bold
                        transition-transform duration-200 hover:scale-[1.03] active:scale-[0.97]
                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
           >
-            Claim je gratis proefweek
+            Neem contact op
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
