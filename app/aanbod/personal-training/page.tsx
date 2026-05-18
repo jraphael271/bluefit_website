@@ -11,7 +11,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const trainers = [
   {
     name: "Burak",
-    photo: "https://placehold.co/400x400/1768E5/ffffff?text=Burak",
+    photo: "/photos/burak-pt.jpeg",
     intro:
       "Burak is een gecertificeerde personal trainer met een passie voor krachtontwikkeling en leefstijlcoaching. Hij helpt je resultaten te boeken die je zelf niet voor mogelijk hield.",
   },
