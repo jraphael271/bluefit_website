@@ -24,9 +24,9 @@ export default function HeroCta() {
         className='text-white font-black uppercase leading-none tracking-tighter mb-6 drop-shadow-[0_4px_24px_rgba(0,0,0,0.5)]'
         style={{ fontSize: 'clamp(3rem, 10vw, 8rem)', pointerEvents: 'none' }}
       >
-        Meer dan
+        Dè Blue zone
         <br />
-        <span className='text-[#7ec8f4]'>een Sportschool.</span>
+        <span className='text-[#7ec8f4]'>Aan de Waal</span>
       </h1>
 
       {/* CTA button */}

@@ -263,7 +263,7 @@ export default function PersonalTrainingPage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          <div className="flex justify-center">
             {trainers.map((trainer, i) => (
               <motion.div
                 key={trainer.name}
@@ -271,17 +271,17 @@ export default function PersonalTrainingPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.55, delay: i * 0.08, ease: [0.22, 1, 0.36, 1] }}
-                className="bg-white/5 border border-white/8 rounded-2xl p-7 flex flex-col gap-5"
+                className="bg-white/5 border border-white/8 rounded-2xl p-10 flex flex-col gap-6 w-full max-w-2xl"
                 style={{ boxShadow: "0 2px 24px rgba(0,0,0,0.25)" }}
               >
-                <div className="flex items-center gap-4">
-                  <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                <div className="flex items-center gap-6">
+                  <div className="relative w-40 h-40 rounded-full overflow-hidden flex-shrink-0">
                     <Image src={trainer.photo} alt={trainer.name} fill className="object-cover" />
                   </div>
-                  <h3 className="text-xl font-bold text-white">{trainer.name}</h3>
+                  <h3 className="text-2xl font-bold text-white">{trainer.name}</h3>
                 </div>
-                <p className="text-white/70 leading-[1.75] text-sm">{trainer.intro}</p>
-                <p className="text-white/30 text-xs italic">
+                <p className="text-white/70 leading-[1.75]">{trainer.intro}</p>
+                <p className="text-white/30 text-sm italic">
                   Meer info volgt binnenkort — neem contact op via de balie voor een kennismaking.
                 </p>
               </motion.div>
