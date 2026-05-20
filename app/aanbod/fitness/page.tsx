@@ -42,7 +42,7 @@ const features: Feature[] = [
     zone: "Fitnessruimte",
     photo: "/photos/B043.jpg",
     title: "Slimme Apparatuur",
-    body: "Onze smart apparaten maken trainen makkelijker, diverser én effectiever:",
+    body: "Onze smart apparaten maken trainen makkelijker diverser én effectiever:",
     bullets: [
       "Krijg via korte uitlegvideo's direct te zien hoe elk apparaat werkt.",
       "Train op verschillende manieren: standaard, excentrisch, isokinetisch of elastisch.",
@@ -58,7 +58,7 @@ const features: Feature[] = [
     zone: "Cardiopark",
     photo: "/photos/B020.jpg",
     title: "Cardio met Variatie",
-    body: "Hardlopen, fietsen, stairmaster, crosstrainer, klimmen of roeien — ons cardio-park biedt eindeloze mogelijkheden en meer. Zo houd je je conditie op peil en maak je elke training afwisselend.",
+    body: "Hardlopen, fietsen, stairmaster, crosstrainer, klimmen of roeien, ons cardio-park biedt eindeloze mogelijkheden en meer. Zo houd je je conditie op peil en maak je elke training afwisselend.",
     bullets: null,
   },
   {
@@ -80,7 +80,7 @@ const features: Feature[] = [
     zone: "Functionele Zone",
     photo: "/photos/B002.jpg",
     title: "Krachttraining & Hyrox",
-    body: "In ons functional zone vind je losse gewichten, plate loaded apparaten, kabels, dumbbells, elastieken en nog veel meer. Alle ruimte om je training helemaal naar eigen wens in te vullen. Perfect ook als je je wilt voorbereiden op evenementen als Hyrox, waarbij kracht en uithoudingsvermogen samenkomen.",
+    body: "In ons functional zone vind je losse gewichten, plate loaded apparaten, kabels, dumbels elastieken en nog veel meer. Alle ruimte om je training helemaal naar eigen wens in te vullen. Perfect ook als je je wilt voorbereiden op evenementen als Hyrox, waarbij kracht en uithoudingsvermogen samenkomen.",
     bullets: null,
   },
   {
@@ -113,68 +113,68 @@ const testimonials = [
 
 const faq = [
   {
-    q: "Kan ik de apparatuur gebruiken zonder ervaring?",
-    a: "Ja, elk apparaat heeft een korte instructievideo en onze trainers staan altijd klaar om je te helpen. Je start veilig en met vertrouwen.",
+    q: "Kan ik de apparaten ook gebruiken zonder ervaring?",
+    a: "Ja, elk apparaat heeft een korte uitlegvideo en onze trainers zijn altijd aanwezig om je te helpen. Daardoor kun je veilig en met vertrouwen starten.",
   },
   {
     q: "Wat houdt een persoonlijk plan in?",
-    a: "We willen weten hoe jij leeft, of er blessures of andere beperkingen zijn, en vooral wat jouw doel is. Daarna nemen we metingen. Je krijgt inzicht in je lichaamssamenstelling: gewicht, spiermassa, vetpercentage en vochtbalans. Zo zie je niet alleen het cijfer op de weegschaal, maar echt wat er in je lichaam verandert. Vervolgens maken we een plan en leggen we dit stap voor stap uit.",
+    a: "Wij raden altijd aan gelijk een persoonlijk plan te plannen. We willen weten hoe je leeft, zijn er blessures of andere beperkingen en vooral wat is je doel? Vanuit daar gaan we je meten. Je krijgt inzicht in je lichaamssamenstelling: gewicht, spiermassa, vetpercentage en vochtbalans. Zo zie je niet alleen het cijfer op de weegschaal, maar echt wat er in je lichaam verandert. Daarna gaan we een plan opstellen wat we stap voor stap gaan uitleggen met jou.",
   },
   {
-    q: "Zijn er vrije trainingsmogelijkheden naast de machines?",
-    a: "Ja, naast de slimme machines hebben we een functional zone met losse gewichten, plate loaded apparaten, kabels en een slee, zodat je vrij kunt trainen en variëren.",
+    q: "Zijn er ook vrije fitnessmogelijkheden naast de apparaten?",
+    a: "Ja, naast de smart apparaten hebben we een functional zone met losse gewichten, plate loaded apparaten, kabels en een slee, zodat je vrij kunt trainen en variëren.",
   },
   {
-    q: "Kan ik trainen voor HYROX of andere events bij Blue Fit?",
-    a: "Absoluut! Onze functionele zone en cardio-apparatuur zijn perfect om je voor te bereiden op HYROX of andere sportieve uitdagingen.",
+    q: "Kan ik met fitness bij Blue Fit ook trainen voor HYROX of andere evenementen?",
+    a: "Zeker! In ons functional zone en met de cardio-apparatuur kun je perfect toewerken naar HYROX of andere sportieve uitdagingen.",
   },
   {
     q: "Wat als ik vragen heb tijdens mijn training?",
-    a: "Onze trainers en coaches zijn altijd aanwezig tijdens begeleide uren om je te ondersteunen, je techniek te verbeteren en tips te geven.",
+    a: "Onze trainers en coaches zijn altijd aanwezig op de vloer tijdens de begeleidingsuren om je te ondersteunen, je techniek te verbeteren en tips te geven.",
   },
   {
-    q: "Kan ik eerst uitproberen?",
-    a: "Ja, je kunt een gratis proefweek claimen om de fitnessruimte, apparatuur en sfeer zelf te ervaren.",
+    q: "Kan ik eerst een keer proeftrainen?",
+    a: "Ja, je kunt een gratis proefweek claimen om de fitnessruimte, apparatuur en sfeer zelf te ervaren. Ook kan je een dag kaart nemen (a Blue day) Mocht je lid worden wordt deze verrekend met het abonnement.",
   },
   {
     q: "Zijn er douches?",
-    a: "Ja, er zijn meerdere douches beschikbaar.",
+    a: "Ja er zijn meerdere douches aanwezig",
   },
   {
-    q: "Zijn er aparte abonnementen of strippenkaarten?",
-    a: "Voor een paar specifieke lessen (Mama Flow, Blue Stars en Blue Icons) zijn er aparte abonnementen, maar in het algemeen zijn er geen aparte abonnementen of strippenkaarten. Er is wel een dagpas.",
+    q: "zijn er ook losse abonnementen of rittenkaarten?",
+    a: "Voor een paar specifieke lessen (mama flow, Blue stars en Blue icons) zijn er losse abonnementen maar over het algemeen zijn er geen losse abonnementen of rittenkaarten. wel is er een dagkaart.",
   },
   {
-    q: "Kan ik hier sporten via Corporate Fitness?",
-    a: "Ja, meld je aan via BFNL en we sturen je een welkomstmail zodra we jouw aanmelding hebben ontvangen.",
+    q: "Kan ik met BedrijfsFitness bij jullie sporten?",
+    a: "Ja, schrijf je in via BFNL en wij sturen je de welkomstmail als we je inzending binnen hebben",
   },
   {
-    q: "Zijn er kluisjes met sloten?",
-    a: "Ja, die zijn beschikbaar.",
+    q: "Zijn er kluisjes aanwezig met sloten.",
+    a: "Ja deze zijn aanwezig",
   },
   {
-    q: "Bieden jullie groepslessen op scherm aan?",
-    a: "Nee, elke les die we aanbieden is live met een enthousiaste presentator.",
+    q: "geven jullie groepslessen op scherm",
+    a: "Nee, Elke les die wij geven is live met een enthousiaste presenter",
   },
   {
-    q: "Hoe log ik in?",
-    a: "Via onze website kun je inloggen en toegang krijgen tot ons (web) klantenportal om elke les te boeken, je trainingen te plannen en nog veel meer.",
+    q: "Hoe kan ik inloggen?",
+    a: "via onze website kun je inloggen en kom je in ons (web) klantenportaal om elke les te boeken, je workouts in te plannen en nog veel meer.",
   },
   {
     q: "Hoe kom ik binnen?",
-    a: "Je kunt inloggen via ons klantenportal op je telefoon met jouw QR-code als je lid bent. Let op: houd de QR-code 20 cm van de scanner.",
+    a: "je kan via ons klantenportaal op je telefoon inloggen met je QR code als je lid bent. Let op, houd de QR 20cm van de scanner af.",
   },
   {
     q: "Hoe kan ik opzeggen?",
-    a: "Je kunt jouw abonnement opzeggen via e-mail. We horen graag de reden, zodat we onszelf kunnen verbeteren. Je abonnement wordt dan opgezegd met een opzegtermijn van 28 dagen, tenzij je een jaarcontract hebt.",
+    a: "via een e-mail kun je je abonnement bij ons stopzetten. Wij horen natuurlijk altijd graag de reden, zodat wij onszelf ook kunnen verbeteren mocht dit aan de orde zijn. Je abonnement zal dan met 28 dagen stopgezet worden mits je niet in een jaarcontract zit.",
   },
   {
-    q: "Wat zijn jullie openingstijden?",
-    a: "We zijn 365 dagen per jaar open van 6:00 tot 23:00.",
+    q: "wat zijn jullie openingstijden?",
+    a: "Wij zijn 365 dagen van 6 tot 23 uur open",
   },
   {
-    q: "Wanneer is er begeleide training?",
-    a: "Begeleiding is er elke ochtend ma–zo van 8:15 tot 12:00 en doordeweeks ook van 17:00 tot 21:00.",
+    q: "Wanneer is er begeleiding?",
+    a: "Begeleiding is er elke ochtend ma - zo van 8:15 t/m 12 en doordeweeks ook om 17 t/m 21 uur",
   },
 ];
 

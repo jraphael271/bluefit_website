@@ -41,26 +41,26 @@ const classes: Class[] = [
     tagColor: "#0FA3B1",
     photo: "/photos/B009.jpg",
     intro:
-      "Op zoek naar een fijne plek voor yoga in Lent of een toegankelijke yogales in Nijmegen? Dan is Ocean Flow bij Blue Fit iets voor jou.",
+      "Zoek je een fijne plek voor yoga in Lent of een toegankelijke yogales in Nijmegen? Dan is de Ocean Flow bij Blue Fit wat voor jou. In deze les werk je op een rustige manier aan flexibiliteit, kracht en ontspanning.",
     description:
-      "Tijdens de Ocean Flow neem je deel aan vloeiende series van houdingen die elkaar opvolgen. De focus ligt op ademhaling, souplesse en bewust bewegen. Onze trainer begeleidt je stap voor stap, waardoor de les geschikt is voor zowel beginners als ervaren yogi's.",
+      "Tijdens de Ocean Flow neem je deel aan vloeiende series van houdingen die elkaar opvolgen. De focus ligt op ademhaling, souplesse en bewust bewegen. Of je nu in Lent woont of uit de omgeving van Nijmegen komt, bij Blue Fit vind je een veilige plek om te ontspannen en sterker te worden. Onze trainer begeleidt je stap voor stap, waardoor de les geschikt is voor zowel beginners als ervaren yogi's.",
     benefits: [
       "Vermindert stress en bevordert ontspanning",
       "Verbetert flexibiliteit en houding",
       "Versterkt spieren zonder overbelasting",
-      "Geschikt voor alle niveaus",
+      "Geschikt voor ieder niveau",
     ],
     goal: "Balans, flexibiliteit & ontspanning",
     duration: "45 min",
     intensity: 1,
     faq: [
       {
-        q: "Heb ik ervaring nodig met yoga?",
-        a: "Nee, Ocean Flow bij Blue Fit is geschikt voor alle niveaus. De trainer biedt opties zodat iedereen kan meedoen.",
+        q: "Moet ik ervaring hebben met yoga in Lent om mee te doen?",
+        a: "Nee, Yoga Flow bij Blue Fit in Lent is geschikt voor alle niveaus. De trainer geeft opties zodat iedereen kan meedoen.",
       },
       {
-        q: "Helpt Ocean Flow bij stress?",
-        a: "Ja, veel Blue Fitters ervaren minder spanning en meer energie na hun yogales in Lent.",
+        q: "Helpt Ocean Flow ook tegen stress?",
+        a: "Ja, veel Blue Fitters ervaren na hun yogales in Lent minder spanning en meer energie.",
       },
     ],
   },
@@ -71,13 +71,13 @@ const classes: Class[] = [
     tagColor: "#E53E3E",
     photo: "/photos/B038.jpg",
     intro:
-      "Wil je maximale resultaten in korte tijd? Kies Sky High HIIT in Lent bij Blue Fit. Een intensieve les met korte, explosieve intervallen.",
+      "Wil je in korte tijd maximaal resultaat behalen? Kies voor Sky High HIIT in Lent bij Blue Fit. Een intensieve les met korte, explosieve intervallen die je conditie, kracht en vetverbranding naar een hoger niveau tillen. Je gaat samen met andere Blue Fitters tot het gaatje. Allemaal om je eigen doel te halen.",
     description:
-      "Tijdens Sky High train je in intervallen van hoge intensiteit, afgewisseld met korte rustmomenten. Denk aan burpees, box jumps, sprints en kettlebell swings. Het tempo ligt hoog, de energie van de groep trekt je mee en de afterburn zorgt dat je ook ná de training calorieën blijft verbranden.",
+      "Tijdens Sky High train je in intervallen van hoge intensiteit, afgewisseld met korte rustmomenten. Denk aan burpees, box jumps, sprints en kettlebell swings. Het tempo ligt hoog, de energie van de groep trekt je mee en de afterburn zorgt ervoor dat je ook ná de training calorieën blijft verbranden. Een training waar je echt samen tot het gaatje gaat en je doelen behaalt.",
     benefits: [
       "Effectieve training in korte tijd",
-      "Boost voor kracht én conditie",
-      "Hoge calorieverbranding, ook na de workout",
+      "Boost voor kracht en conditie",
+      "Hoge calorieverbranding, ook na afloop",
       "Motiverende groepsdynamiek",
     ],
     goal: "Explosieve kracht & conditie",
@@ -85,15 +85,15 @@ const classes: Class[] = [
     intensity: 4,
     faq: [
       {
-        q: "Hoe lang duurt de Sky High HIIT-les?",
-        a: "30 minuten. Kort maar heel effectief.",
+        q: "Hoe lang duurt de HIIT-les Sky High in Lent?",
+        a: "30 minuten. Kort, maar zeer effectief.",
       },
       {
-        q: "Is HIIT geschikt voor iedereen?",
-        a: "Ja, maar het is intensief. Beginners kunnen lichtere variaties doen.",
+        q: "Is HIIT in Nijmegen geschikt voor iedereen?",
+        a: "Ja, maar het is intensief. Beginners kunnen lichtere varianten doen.",
       },
       {
-        q: "Wat zijn de voordelen van HIIT?",
+        q: "Wat zijn de voordelen van HIIT in Lent?",
         a: "Je verbrandt veel calorieën, verbetert je conditie en profiteert van het afterburn-effect.",
       },
     ],
@@ -107,28 +107,28 @@ const classes: Class[] = [
     intro:
       "Uniek bij Blue, deze eigen ontworpen les is een full-body workout die kracht en cardio combineert voor maximaal resultaat.",
     description:
-      "Tijdens Shred It Blue wissel je intensieve krachtoefeningen af met conditionele intervallen op de fiets. Denk aan squats, deadlifts en bicep curls. Je traint samen met andere Blue Fitters in een motiverende groepssfeer. Wil je op een rustiger niveau instappen? We hebben ook de light versie.",
+      "Tijdens Shred It Blue wissel je intensieve krachtoefeningen af met conditionele intervallen op de fiets. Denk aan Squats, Deadlifts en bicep curls. Je traint samen met andere Blue Fitters in een motiverende groepssfeer. Onze trainer zorgt ervoor dat iedereen kan meedoen op zijn of haar eigen niveau. Een perfecte training om jezelf goed uit te dagen. Wil je op een rustiger niveau instappen hebben we ook de Light versie beschikbaar.",
     benefits: [
-      "Verbrandt snel calorieën",
+      "Snel calorieën verbranden",
       "Verbetert zowel kracht als conditie",
       "Uitdagend en dynamisch",
-      "Elke les is anders",
+      "Elke les is weer anders",
     ],
     goal: "Vetverbranding & conditie",
     duration: "45 min",
     intensity: 3,
     faq: [
       {
-        q: "Is Shred It hetzelfde als een HIIT-les?",
-        a: "Nee, Shred It Blue is intensief maar heel anders — kracht en uithoudingsvermogen worden gecombineerd voor een full-body workout.",
+        q: "Is Shred It hetzelfde als een HIIT-les in lent?",
+        a: "Nee, Shred It Blue is intensief maar weer totaal anders geen springen, wel worden zowel kracht als uithouding gecombineerd waardoor je een full body workout hebt.",
       },
       {
-        q: "Kunnen beginners meedoen aan Shred It?",
-        a: "Ja, door gewichten en fietssnelheid aan te passen kun je het altijd lichter of zwaarder maken. We hebben ook altijd de Light versie.",
+        q: "Kan ik Shred It in Nijmegen volgen als beginner?",
+        a: "Ja, door gewichten aan te passen en het tempo op de fiets kan je het altijd lichter of zwaarder naar jouw niveau trainen, zodat iedereen veilig mee kan doen. We hebben ook altijd nog de Light versie beschikbaar.",
       },
       {
         q: "Hoeveel calorieën verbrand ik met Shred It Blue?",
-        a: "Gemiddeld 500–800 kcal per les, afhankelijk van je inzet.",
+        a: "Gemiddeld 500–800 kcal per les, afhankelijk van jouw inzet.",
       },
     ],
   },
@@ -139,30 +139,30 @@ const classes: Class[] = [
     tagColor: "#7B61FF",
     photo: "/photos/B040.jpg",
     intro:
-      "Wil je sterker worden en werken aan je spieropbouw? Kies voor Iron Pump bij Blue Fit in Lent, dé groepsles waarin conditionele krachttraining op het ritme van de muziek centraal staat.",
+      "Wil je sterker worden en werken aan je spieropbouw? Kies voor Iron Pump bij Blue Fit in Lent, dé groepsles waarin conditionele krachttraining op het ritme van de muziek centraal staat. Onder begeleiding van onze trainers werk je veilig, samen met andere Blue Fitters aan je hele lichaam.",
     description:
-      "Tijdens Iron Pump train je met stangen en losse gewichten. Je werkt in blokken waarin verschillende spiergroepen aan bod komen: benen, borst, rug, armen en core. Dankzij de groepssfeer en motiverende beats haal je altijd meer uit jezelf.",
+      "Tijdens Iron Pump train je met stangen en losse gewichten. Je werkt in blokken waarin verschillende spiergroepen aan bod komen: benen, borst, rug, armen en core. Dankzij de groepssfeer en motiverende beats haal je altijd meer uit jezelf. Zodat jij jouw doelen kan overtreffen.",
     benefits: [
-      "Vergroot spierkracht en spiermassa",
+      "Verhoogt spierkracht en spiermassa",
       "Techniektraining onder begeleiding",
-      "Veilige en gestructureerde krachtuithoudingles",
+      "Veilige en gestructureerde duurkrachtles",
       "Complete full-body workout",
     ],
-    goal: "Spierkracht & core stabiliteit",
+    goal: "Spierkracht & core stability",
     duration: "45 min",
     intensity: 2,
     faq: [
       {
-        q: "Heb ik ervaring met krachttraining nodig?",
-        a: "Nee, onze trainer legt alles uit en helpt bij correcte techniek. Iedereen kan op eigen niveau trainen.",
+        q: "Moet ik ervaring hebben met krachttraining in Lent om mee te doen?",
+        a: "Nee, onze trainer legt alles uit en helpt je met de juiste techniek. Ieder kan op zijn eigen niveau trainen.",
       },
       {
-        q: "Train je met zware gewichten tijdens Iron Pump?",
-        a: "Dat bepaal je zelf. Je begint licht en bouwt op naarmate je sterker wordt.",
+        q: "Werk je met zware gewichten tijdens Iron Pump in Nijmegen?",
+        a: "Dat bepaal je zelf. Je start licht en bouwt op naarmate je sterker wordt.",
       },
       {
-        q: "Helpt Iron Pump bij het opbouwen van spiermassa?",
-        a: "Ja, dit is dé groepsles in Lent voor spierbouw en krachtuithoudingsvermogen.",
+        q: "Helpt Iron Pump om spiermassa op te bouwen?",
+        a: "Ja, dit is dé groepsles in Lent voor spieropbouw en kracht uithoudingsvermogen.",
       },
     ],
   },
@@ -173,9 +173,9 @@ const classes: Class[] = [
     tagColor: "#1768E5",
     photo: "/photos/B020.jpg",
     intro:
-      "Op zoek naar een intensieve spinningles of een uitdagende indoor cycling-ervaring? Dan is Spinnergy bij Blue Fit jouw groepsles.",
+      "Ben je op zoek naar een intensieve spinningles of een uitdagende indoor cycling ervaring? Dan is Spinnergy bij Blue Fit jouw groepsles. Met opzwepende muziek fiets je jezelf samen met andere Blue Fitters fit en vol energie.",
     description:
-      "Tijdens Spinnergy werk je met wisselende tempo's en weerstandsniveaus. Beklimmingen, sprints en steady rides wisselen elkaar af. De muziek en groepssfeer dragen je door de intensieve sessies, zodat je jezelf elke keer weer uitdaagt.",
+      "Tijdens Spinnergy werk je met variërende tempo's en weerstandsniveaus. Klimmen, sprinten en steady rides wisselen elkaar af. De muziek en de groepssfeer tillen je door de intensieve sessies heen, waardoor je jezelf elke keer opnieuw uitdaagt. Je zult zien dat het elke week beter gaat en je makkelijker je doelen haalt.",
     benefits: [
       "Verbetert conditie en uithoudingsvermogen",
       "Hoge calorieverbranding",
@@ -187,16 +187,16 @@ const classes: Class[] = [
     intensity: 3,
     faq: [
       {
-        q: "Moet ik mijn eigen fiets meenemen?",
-        a: "Nee, Blue Fit stelt indoor fietsen ter beschikking. Neem sportkleding, een handdoek en water mee.",
+        q: "Heb ik mijn eigen fiets nodig voor Spinnergy in Lent?",
+        a: "Nee, Blue Fit zorgt voor indoor fietsen. Je neemt alleen sportkleding, een handdoek en water mee.",
       },
       {
-        q: "Is spinning geschikt voor beginners?",
-        a: "Ja, je stelt je eigen weerstand en snelheid in.",
+        q: "Is spinning in Nijmegen geschikt voor beginners?",
+        a: "Ja, je bepaalt zelf de weerstand en snelheid.",
       },
       {
-        q: "Hoe intensief is Spinnergy?",
-        a: "Het is een intensieve cardio-les, maar de instelbare weerstand zorgt dat iedereen kan meedoen.",
+        q: "Hoe intensief is Spinnergy bij Blue Fit in Lent?",
+        a: "Het is een intensieve cardio-les, maar door de aanpasbare weerstand kan iedereen op zijn eigen niveau meedoen.",
       },
     ],
   },
@@ -207,30 +207,30 @@ const classes: Class[] = [
     tagColor: "#3BB273",
     photo: "/photos/B042.jpg",
     intro:
-      "Wil je sporten in de frisse buitenlucht? Met Bootcamp in Lent bij Blue Fit werk je in groepsverband aan kracht, conditie en uithoudingsvermogen.",
+      "Wil je sporten in de frisse buitenlucht? Met Bootcamp in Lent bij Blue Fit werk je in groepsverband aan kracht, conditie en uithoudingsvermogen. Dé buitentraining voor wie houdt van afwisseling en energie.",
     description:
-      "Elke Bootcamp is anders. Je doet een mix van hardloopsprints, push-ups, squats, intervaltraining en spelelementen. Onder begeleiding van een trainer ga je aan de slag met je eigen lichaamsgewicht en uitdagende oefeningen.",
+      "Elke Bootcamp is anders. Je doet een mix van hardloopsprints, push-ups, squats, intervaltraining en spelelementen. Onder begeleiding van een trainer ga je aan de slag met je eigen lichaamsgewicht en uitdagende oefeningen. De groepsdynamiek zorgt voor extra motivatie en de buitenlucht geeft net dat beetje extra power. We dagen je uit om doelen te stellen, deze te halen en weer voor nieuwe te gaan. Zodat je blijft groeien.",
     benefits: [
       "Complete full-body workout",
       "Werkt aan zowel kracht als conditie",
-      "Extra motivatie vanuit de groep",
-      "Sporten in de frisse buitenlucht",
+      "Extra motivatie door de groep",
+      "Sporten in de buitenlucht",
     ],
     goal: "Uithoudingsvermogen & spierkracht",
     duration: "60 min",
     intensity: 3,
     faq: [
       {
-        q: "Vindt Bootcamp altijd buiten plaats?",
-        a: "Ja, Bootcamp bij Blue Fit is een buitentraining. Alleen bij extreem slecht weer gaan we naar binnen.",
+        q: "Gaat Bootcamp in Lent altijd buiten door?",
+        a: "Ja, Bootcamp bij Blue Fit is een buitentraining. Alleen bij extreem slecht weer wijken we uit naar binnen.",
       },
       {
-        q: "Is Bootcamp geschikt voor beginners?",
-        a: "Zeker. De trainer biedt variaties zodat zowel beginners als gevorderden kunnen meedoen.",
+        q: "Is Bootcamp in Nijmegen geschikt voor beginners?",
+        a: "Zeker. De trainer geeft variaties, zodat zowel beginners als gevorderden kunnen meedoen.",
       },
       {
-        q: "Wat moet ik meenemen naar Bootcamp?",
-        a: "Stevige schoenen, sportkleding die vuil mag worden en een waterfles.",
+        q: "Wat moet ik meenemen naar Bootcamp in Lent?",
+        a: "Stevige schoenen, sportkleding die vies mag worden en een flesje water.",
       },
     ],
   },
@@ -241,29 +241,29 @@ const classes: Class[] = [
     tagColor: "#E879A0",
     photo: "/photos/B018.jpg",
     intro:
-      "Hou je van muziek en bewegen? Dan is Blue Beats jouw groepsles! Deze Zumba-les in Lent combineert dans, cardio en fun in één.",
+      "Hou je van muziek en bewegen? Dan is Blue Beats jouw groepsles! Deze Zumba-les in Lent combineert dans, cardio en fun in één. Je traint niet alleen je conditie, maar krijgt er ook een flinke dosis energie en plezier voor terug.",
     description:
-      "Tijdens Blue Beats volg je ritmische bewegingen en danscombinaties op opzwepende muziek. De les is toegankelijk voor iedereen: je beweegt op je eigen niveau en geniet van het plezier in de groep. Ideaal om fit te worden zonder dat het voelt als sporten.",
+      "Tijdens Blue Beats volg je ritmische bewegingen en danscombinaties op opzwepende muziek. De les is toegankelijk voor iedereen: je beweegt op je eigen niveau en geniet vooral van het plezier in de groep. Ideaal om fit te worden zonder dat het voelt als sporten.",
     benefits: [
-      "Cardio en plezier in één les",
-      "Verbetert coördinatie en ritme",
-      "Hoge fun-factor, lage drempel",
+      "Cardio en fun in één les",
+      "Verbetert coördinatie en ritmegevoel",
+      "Hoge funfactor, lage drempel",
       "Perfect om samen te doen",
     ],
-    goal: "Cardio, coördinatie & plezier",
+    goal: "Cardio, coördinatie & fun",
     duration: "45–50 min",
     intensity: 2,
     faq: [
       {
-        q: "Is Blue Beats hetzelfde als Zumba?",
-        a: "Ja, het is onze eigen Zumba-les met een Blue Fit-twist.",
+        q: "Is Blue Beats hetzelfde als Zumba in Lent?",
+        a: "Ja, het is onze eigen Zumba-les met een Blue Fit twist.",
       },
       {
-        q: "Hoef ik te kunnen dansen om mee te doen?",
-        a: "Nee, de les draait om plezier en beweging. Iedereen kan meedoen.",
+        q: "Moet ik kunnen dansen om mee te doen aan Zumba in Nijmegen?",
+        a: "Nee, de les draait om plezier en bewegen. Iedereen kan instappen.",
       },
       {
-        q: "Hoeveel calorieën verbrand ik tijdens Blue Beats?",
+        q: "Hoeveel calorieën verbrand ik tijdens Blue Beats in Lent?",
         a: "Gemiddeld 300–500 kcal per les.",
       },
     ],
@@ -275,11 +275,11 @@ const classes: Class[] = [
     tagColor: "#F59E0B",
     photo: "/photos/B007.jpg",
     intro:
-      "Wil je tijdens of na je zwangerschap veilig blijven bewegen? Mama Flow in Lent is speciaal ontwikkeld voor (aanstaande) moeders die willen werken aan herstel, mobiliteit en balans.",
+      "Wil je tijdens of na je zwangerschap veilig blijven bewegen? Mama Flow in Lent is speciaal ontwikkeld voor (aanstaande) moeders die willen werken aan herstel, mobiliteit en balans in een vertrouwde setting. Je traint in een groep waarin ruimte is voor aandacht, begrip en verbinding — met jezelf én met andere moeders.",
     description:
-      "De les bestaat uit rustige, veilige yoga oefeningen gericht op bekkenbodem, ademhaling en lichte kracht. Onze ervaren trainer houdt rekening met de fase waarin jij zit, zodat de les altijd aansluit bij jouw lichaam.",
+      "De les bestaat uit rustige, veilige yoga oefeningen gericht op bekkenbodem, ademhaling en lichte kracht. Onze ervaren trainer houdt rekening met de fase waarin jij zit, zodat de les altijd aansluit bij jouw lichaam. Je bouwt kracht op, ontspant en krijgt meer energie – allemaal op een veilige manier.",
     benefits: [
-      "Veilig trainen tijdens en na de zwangerschap",
+      "Veilige training tijdens en na zwangerschap",
       "Focus op herstel en balans",
       "Versterkt bekkenbodem en core",
       "Kleinschalige, persoonlijke groepsles",
@@ -289,16 +289,16 @@ const classes: Class[] = [
     intensity: 1,
     faq: [
       {
-        q: "Vanaf wanneer na de bevalling kan ik meedoen?",
-        a: "Doorgaans vanaf 6 weken, maar raadpleeg altijd je arts of verloskundige.",
+        q: "Vanaf wanneer na de bevalling mag ik Mama Flow in Lent volgen?",
+        a: "Meestal vanaf 6 weken, maar overleg altijd met je arts of verloskundige.",
       },
       {
-        q: "Is Mama Flow ook geschikt tijdens de zwangerschap?",
-        a: "Ja, de oefeningen worden per trimester aangepast.",
+        q: "Is Mama Flow in Nijmegen ook geschikt tijdens de zwangerschap?",
+        a: "Ja, de oefeningen worden aangepast per trimester.",
       },
       {
-        q: "Mag ik mijn baby meenemen naar Mama Flow?",
-        a: "In overleg met de trainer is dat mogelijk.",
+        q: "Kan ik mijn baby meenemen naar Mama Flow in Lent?",
+        a: "Nee, dit is niet mogelijk.",
       },
     ],
   },
@@ -311,28 +311,28 @@ const classes: Class[] = [
     intro:
       "Wil je vitaal en in beweging blijven op een manier die past bij jouw leeftijd? Blue Icons is de senioren fitness groepsles in Lent waar je werkt aan kracht, balans en energie, samen met leeftijdsgenoten.",
     description:
-      "Tijdens Blue Icons doe je functionele oefeningen gericht op mobiliteit, balans en spierkracht. Alles in een rustig tempo en onder begeleiding van een ervaren trainer.",
+      "Tijdens Blue Icons doe je functionele oefeningen die gericht zijn op mobiliteit, balans en spierkracht. Alles gebeurt in een rustig tempo en onder begeleiding van een ervaren trainer. De nadruk ligt op gezond bewegen en plezier maken in een sociale, gezellige setting.",
     benefits: [
       "Houdt spieren en gewrichten soepel",
       "Verbetert balans en stabiliteit",
       "Vergroot vitaliteit en energie",
       "Sociale en laagdrempelige groepsles",
     ],
-    goal: "Soepele beweging, kracht & vitaliteit",
+    goal: "Soepel bewegen, kracht & vitaliteit",
     duration: "45 min",
     intensity: 1,
     faq: [
       {
-        q: "Voor welke leeftijd is Blue Icons bedoeld?",
-        a: "De les is gericht op senioren (55+), maar iedereen die zacht wil sporten is welkom.",
+        q: "Voor welke leeftijd is Blue Icons in Lent bedoeld?",
+        a: "De les is gericht op senioren (55+), maar iedereen die rustig wil bewegen en kalm wil trainen is welkom.",
       },
       {
-        q: "Is seniorenfitness intensief?",
-        a: "Nee, de les wordt rustig opgebouwd en is afgestemd op de deelnemers.",
+        q: "Is senioren fitness in Nijmegen intensief?",
+        a: "Nee, de les wordt rustig opgebouwd en afgestemd op de deelnemers.",
       },
       {
-        q: "Moet ik lid zijn om mee te doen?",
-        a: "Nee, niet-leden kunnen altijd 2 weken gratis proberen.",
+        q: "Moet ik lid zijn om mee te doen aan Blue Icons?",
+        a: "Nee, ook niet-leden kunnen altijd een gratis 2 weken proberen.",
       },
     ],
   },
@@ -343,12 +343,12 @@ const classes: Class[] = [
     tagColor: "#A855F7",
     photo: "/photos/B014.jpg",
     intro:
-      "Altijd willen dansen of je moderne danstechniek verbeteren? Blue Motion is de groepsles voor iedereen die wil genieten van dans, beweging, expressie en verbinding.",
+      "Altijd al willen dansen of je moderne danstechniek verbeteren? Blue Motion is dé groepsles voor iedereen die wil genieten van dans, beweging, expressie én verbinding. Je leert vloeiende combinaties, werkt aan kracht, souplesse en coördinatie, en ontdekt hoe je dans kunt gebruiken om jezelf te uiten — in contact met je lichaam én de mensen om je heen.",
     description:
-      "Tijdens Blue Motion word je begeleid door een ervaren dansdocent. Je leert moderne danstechnieken, werkt aan lichaamscontrole en musicaliteit, en bouwt choreografieën op in een prettige, open sfeer. Geschikt voor zowel beginners als gevorderden.",
+      "Tijdens Blue Motion word je begeleid door een ervaren dansdocent. Je leert moderne danstechnieken, werkt aan lichaamscontrole en muzikaliteit en bouwt choreografieën op in een fijne, open sfeer. De les is geschikt voor zowel beginners als gevorderde dansers — iedereen kan op zijn eigen niveau instappen.",
     benefits: [
-      "Verbetert kracht, flexibiliteit en coördinatie",
-      "Vergroot lichaamsbesef en expressie",
+      "Verbetert kracht, lenigheid en coördinatie",
+      "Vergroot lichaamsbewustzijn en expressie",
       "Creatief en ontspannend tegelijk",
       "Geschikt voor alle leeftijden en niveaus",
     ],
@@ -357,11 +357,11 @@ const classes: Class[] = [
     intensity: 2,
     faq: [
       {
-        q: "Wat is het doel van Blue Motion?",
-        a: "Plezier, verbetering van techniek en het ontwikkelen van je expressie.",
+        q: "Wat is het doel van Blue Motion in Lent?",
+        a: "Plezier, techniek verbeteren en je expressie.",
       },
       {
-        q: "Is moderne dans geschikt voor beginners?",
+        q: "Is moderne dans in Nijmegen geschikt voor beginners?",
         a: "Ja, de bewegingen zijn toegankelijk voor iedereen.",
       },
     ],
@@ -373,19 +373,54 @@ const classes: Class[] = [
     tagColor: "#EC4899",
     photo: "/photos/B013.jpg",
     intro:
-      "Is jouw kind op zoek naar een leuke en actieve dansles? Blue Stars is speciaal ontwikkeld voor kinderen van 3–10 jaar.",
+      "Zoekt jouw kind een leuke en actieve dansles? Blue Stars is speciaal ontwikkeld voor kinderen van 3 t/m 10 jaar die samen willen bewegen, plezier maken en nieuwe dansstijlen ontdekken. Van stoere hiphopmoves tot elegante balletpassen — elke les is een vrolijk avontuur vol muziek en creativiteit.",
     description:
-      "Tijdens Blue Stars worden kinderen begeleid door enthousiaste en ervaren dansdocenten. Ze leren basisbewegingen van verschillende stijlen waaronder hip-hop, moderne dans, breakdance en ballet. Via spel en dans ontwikkelen ze ritme, coördinatie en zelfvertrouwen.",
+      "Tijdens Blue Stars krijgen kinderen les van enthousiaste en ervaren dansdocenten. Ze leren basisbewegingen uit verschillende stijlen zoals hiphop, moderne dans, breakdance en ballet. Door spel en dans ontwikkelen ze ritmegevoel, coördinatie en zelfvertrouwen. De lessen zijn speels en veilig, met veel ruimte voor eigen expressie.",
     benefits: [
       "Stimuleert motoriek en coördinatie",
-      "Bouwt zelfvertrouwen en creativiteit op",
+      "Vergroot zelfvertrouwen en creativiteit",
       "Kennismaking met meerdere dansstijlen",
       "Vrolijke, veilige en energieke sfeer",
     ],
-    goal: "Dansvreugde & ontwikkeling",
+    goal: "Dansplezier & ontwikkeling",
     duration: "45 min",
     intensity: 2,
     faq: [],
+  },
+  {
+    id: "box-fit-blue",
+    name: "Box Fit Blue",
+    type: "Boksen",
+    tagColor: "#DC2626",
+    photo: "/photos/B043.jpg",
+    intro:
+      "Wil je werken aan je conditie, kracht én energie kwijt kunnen? Box Fit Blue is dé boxing workout in Lent waarbij boksen, cardio en functionele oefeningen samenkomen. Tijdens deze energieke groepsles train je je hele lichaam op motiverende muziek en verbeter je zowel je fitheid als je kracht.",
+    description:
+      "Tijdens Box Fit Blue werk je met verschillende bokstechnieken zoals stoten, combinaties en voetenwerk. Dit wordt afgewisseld met cardio- en krachtoefeningen voor een complete full body workout. Je bokst op pads, zakken of in duo's, zonder fysiek contact. De les is uitdagend, motiverend en perfect om stress los te laten. De energie van de groep zorgt ervoor dat je met een voldaan gevoel naar huis gaat.",
+    benefits: [
+      "Verbetert conditie en uithoudingsvermogen",
+      "Versterkt het hele lichaam",
+      "Ideaal voor stressrelease en extra energie",
+      "Motiverende en energieke groepssfeer",
+      "Geschikt voor zowel beginners als gevorderden",
+    ],
+    goal: "Conditie, kracht & stressrelease",
+    duration: "45 min",
+    intensity: 3,
+    faq: [
+      {
+        q: "Heb ik ervaring nodig voor Box Fit Blue in Lent?",
+        a: "Nee, de les is geschikt voor beginners én gevorderden. De trainer helpt je stap voor stap met de technieken.",
+      },
+      {
+        q: "Wat train ik tijdens Box Fit Blue in Nijmegen?",
+        a: "Je werkt aan conditie, kracht, coördinatie en snelheid. Daarnaast is het een perfecte workout om stress los te laten.",
+      },
+      {
+        q: "Is Box Fit Blue in Lent zwaar?",
+        a: "De les is intensief, maar je bepaalt zelf hoe hard je meedoet. Daardoor is de workout toegankelijk voor ieder niveau.",
+      },
+    ],
   },
   {
     id: "blue-step-shape",
@@ -425,24 +460,24 @@ const classes: Class[] = [
 
 const generalFaq = [
   {
-    q: "Heb ik ervaring nodig om mee te doen aan een groepsles?",
+    q: "Moet ik ervaring hebben om mee te doen aan een groepsles?",
     a: "Nee, onze groepslessen zijn toegankelijk voor alle niveaus. De trainer geeft altijd opties en variaties, zodat je op je eigen tempo kunt meedoen.",
   },
   {
-    q: "Hoe schrijf ik me in voor een groepsles?",
-    a: "Je meldt je eenvoudig aan via de Blue Fit klantenportaal. Zo weet je zeker dat je plek gereserveerd is.",
+    q: "Hoe kan ik me aanmelden voor een groepsles?",
+    a: "Je meldt je eenvoudig aan via de Blue fit klantenportaal. Zo weet je zeker dat je plek gereserveerd is.",
   },
   {
-    q: "Wat als ik na inschrijving toch niet kan?",
-    a: "Geen probleem! Je kunt je afmelden in de app, zodat iemand anders jouw plek kan pakken.",
+    q: "Wat als ik een les niet kan volgen nadat ik me heb aangemeld?",
+    a: "Geen probleem! In de app kun je je afmelden, zodat iemand anders je plek kan innemen.",
   },
   {
-    q: "Zijn groepslessen inbegrepen bij mijn abonnement?",
+    q: "Zijn groepslessen inbegrepen in mijn abonnement?",
     a: "Ja, groepslessen zijn onderdeel van je Blue Fit lidmaatschap. Je kunt dus onbeperkt meedoen.",
   },
   {
     q: "Wat moet ik meenemen naar een groepsles?",
-    a: "Sportkleding waarin je vrij kunt bewegen, schone sportschoenen en een handdoek. Een waterfles is handig bij sommige lessen. Matten en materialen zijn aanwezig bij Blue Fit.",
+    a: "Sportkleding waarin je lekker beweegt, schone sportschoenen en een handdoek. Voor sommige lessen is een flesje water handig. Matjes en materialen zijn aanwezig bij Blue Fit.",
   },
   {
     q: "Hoe intensief zijn de groepslessen?",
@@ -450,7 +485,7 @@ const generalFaq = [
   },
   {
     q: "Kan ik een groepsles eerst uitproberen?",
-    a: "Absoluut! Je bent van harte welkom om een gratis proeflies mee te doen en de sfeer zelf te ervaren.",
+    a: "Zeker! Je bent welkom om een gratis proefles mee te doen en de sfeer zelf te ervaren.",
   },
 ];
 
@@ -944,12 +979,12 @@ export default function GroepslessenPage() {
               Bij Blue Fit sport je samen
             </h2>
             <p className="text-slate-500 leading-[1.75]">
-              Samen sporten is niet alleen leuker, het zorgt ook voor verbinding en motivatie. Dat community-gevoel is kenmerkend voor de Blue Zones. We bieden een breed aanbod aan groepslessen: van ontspannend en mindful tot energiek en uitdagend. Voor iedereen iets, passend bij jouw doel.
+              Bij Blue Fit sport je samen! Samen sporten is niet alleen leuker, het zorgt ook voor verbinding en motivatie. Precies dat gemeenschapsgevoel dat zo kenmerkend is voor de Blue Zones. Bij ons vind je een breed aanbod aan groepslessen: van ontspannen en mindful tot energiek en uitdagend. Voor ieder wat wils passend bij jouw doel.
             </p>
           </div>
           <div className="md:pt-24">
             <p className="text-slate-500 leading-[1.75]">
-              Of je nu wilt ontspannen, kracht wilt opbouwen of flink wilt zweten: er is altijd een les die bij jou past.
+              Of je nu wilt ontspannen, kracht opbouwen of lekker zweten: er is altijd een les die bij je past.
             </p>
           </div>
         </div>

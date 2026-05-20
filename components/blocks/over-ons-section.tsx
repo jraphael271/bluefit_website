@@ -109,7 +109,7 @@ export default function OverOnsSection() {
             </p>
             <blockquote className='mt-2 pl-5 border-l-2 border-[#1f7bbf]'>
               <p className='text-[#0d1f3c] font-semibold leading-snug italic'>
-                &ldquo;Blue Fit wil De Blue Zone aan de Waal creëren — een plek waar mensen samen werken aan een duurzame leefstijl. Een omgeving waarin gezond leven vanzelfsprekend wordt, met aandacht voor lichaam, geest en verbinding met anderen.&rdquo;
+                &ldquo;Blue Fit wil De Blue Zone aan de Waal creëren — een plek waar mensen samen werken aan een duurzame leefstijl. Een omgeving waarin gezond leven vanzelfsprekend wordt, met diepe aandacht voor lichaam, geest en verbinding met anderen.&rdquo;
               </p>
             </blockquote>
           </motion.div>
