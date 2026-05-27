@@ -422,40 +422,6 @@ const classes: Class[] = [
       },
     ],
   },
-  {
-    id: "blue-step-shape",
-    name: "Blue Step & Shape",
-    type: "Step Aerobics",
-    tagColor: "#F97316",
-    photo: "/photos/B039.jpg",
-    intro:
-      "Op zoek naar een dynamische les die conditie en kracht combineert? Blue Step & Shape is de step aerobics groepsles in Lent.",
-    description:
-      "Tijdens de les gebruik je een step om diverse cardio-oefeningen te doen. Tussendoor werk je met dumbells of je eigen lichaamsgewicht aan spierkracht. De muziek geeft extra energie en zorgt voor een leuke, motiverende sfeer.",
-    benefits: [
-      "Verbrandt calorieën en verbetert conditie",
-      "Versterkt en vormt het hele lichaam",
-      "Leuke en energieke les",
-      "Muziek geeft extra motivatie",
-    ],
-    goal: "Conditie, coördinatie & shaping",
-    duration: "45 min",
-    intensity: 2,
-    faq: [
-      {
-        q: "Heb ik ervaring met step aerobics nodig?",
-        a: "Nee, de trainer bouwt de combinaties geleidelijk op.",
-      },
-      {
-        q: "Wat train ik tijdens Step & Shape?",
-        a: "Conditie en spierkracht. Je verbrandt calorieën en vormt je lichaam.",
-      },
-      {
-        q: "Is Blue Step & Shape zwaar?",
-        a: "Het is uitdagend, maar jij bepaalt hoe intensief je meedoet.",
-      },
-    ],
-  },
 ];
 
 const generalFaq = [
